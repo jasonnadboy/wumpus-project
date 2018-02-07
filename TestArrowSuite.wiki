@@ -1,8 +1,21 @@
-!contents -R2 -g -p -f -h
+---
+Suite: no
+Test
+---
+!define TEST_SYSTEM {slim}
+!path /Users/ian20_000/git/wumpus-project/bin/
 
-Test Arrow Count at start of game = 5 
-Test when an arrow is shot Reclaimable Counter ++1 , Arrow Count -1
+
+|import|
+|test|
+
+
+!|script|testArrows|
+|check|arrowCountAtStartOfGame|5|
+|check|arrowCount0ReturnError|You do not have any arrows left|
 Test when Arrow count is 0 Player is unable to shoot an arrow (error Message)
+Test when an arrow is shot Reclaimable Counter ++1 , Arrow Count -1
+
 
 Test Shoot Arrow North that arrow goes north
 Test Shoot Arrow South that arrow goes south
