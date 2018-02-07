@@ -25,11 +25,11 @@ public class Cavern {
 	
 	public Cavern getConnection(DIR dir) {
 		switch(dir) {
-			case NORTH:
+			case N:
 				return northConnection;
-			case SOUTH:
+			case S:
 				return southConnection;
-			case EAST:
+			case E:
 				return eastConnection;
 			default:
 				return westConnection;

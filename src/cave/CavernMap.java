@@ -27,14 +27,18 @@ public class CavernMap {
 		Cavern to = this.getCavern(toString);
 		
 		switch(dir) {
-			case NORTH:
+			case N:
 				from.setNorthConnection(to);
-			case SOUTH:
+				to.setSouthConnection(from);
+			case S:
 				from.setSouthConnection(to);
-			case EAST:
+				to.setNorthConnection(from);
+			case E:
 				from.setEastConnection(to);
+				to.setWestConnection(from);
 			default:
 				from.setWestConnection(to);
+				to.setEastConnection(from);
 		}	
 	
 	}
