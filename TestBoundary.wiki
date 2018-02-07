@@ -1,0 +1,16 @@
+---
+Help: TestBoundary
+---
+!contents -R2 -g -p -f -h
+Check cavern 1 direction N generates error message "You can't go (east/west/north/south) from here"
+Check cavern 1 direction W generates error message "You can't go (east/west/north/south) from here"
+Check cavern 2 direction N generates error message "You can't go (east/west/north/south) from here"
+Check cavern 3 direction N generates error message "You can't go (east/west/north/south) from here"
+Check cavern 3 direction E generates error message "You can't go (east/west/north/south) from here"
+Check cavern 4 direction E generates error message "You can't go (east/west/north/south) from here"
+Check cavern 5 direction E generates error message "You can't go (east/west/north/south) from here"
+Check cavern 5 direction S generates error message "You can't go (east/west/north/south) from here"
+Check cavern 6 direction S generates error message "You can't go (east/west/north/south) from here"
+Check cavern 7 direction S generates error message "You can't go (east/west/north/south) from here"
+Check cavern 7 direction W generates error message "You can't go (east/west/north/south) from here"
+Check cavern 8 direction W generates error message "You can't go (east/west/north/south) from here"

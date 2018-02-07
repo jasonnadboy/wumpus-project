@@ -1,0 +1,8 @@
+---
+Help: TestStartingPoint
+---
+!contents -R2 -g -p -f -h
+Check Starting Cavern always = 9 
+Pits or Bats = false
+
+Loop
