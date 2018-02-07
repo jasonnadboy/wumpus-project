@@ -2,14 +2,18 @@ package gridCave;
 
 import java.util.Random;
 
+import arrows.Action;
+
 public class Game {
 	
-	private Character theCharacter;
-	private Cave theCave;
+	public Character theCharacter;
+	public Cave theCave;
+	public Action arrowAction;
 	
 	public Game() {
 		theCave = new Cave();
 		theCharacter = new Character(2,2);
+		arrowAction = new Action(theCharacter);
 	
 	}
 	
