@@ -4,7 +4,8 @@ public class Character {
 	
 	private int x;
 	private int y;
-	
+	private int noOfArrows = 5;
+
 	public Character(int startX, int startY) {
 		x = startX;
 		y = startY;
@@ -37,5 +38,12 @@ public class Character {
 		x = newX;
 		y = newY;
 	}
-	
+
+	public int getNoOfArrows() {
+		return noOfArrows;
+	}
+
+	public void setNoOfArrows(int noOfArrows) {
+		this.noOfArrows = noOfArrows;
+	}
 }

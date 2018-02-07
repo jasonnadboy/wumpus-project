@@ -2,14 +2,18 @@ package gridCave;
 
 import java.util.Random;
 
+import arrows.Action;
+
 public class Game {
 	
-	private Character theCharacter;
-	private Cave theCave;
+	public Character theCharacter;
+	public Cave theCave;
+	public Action arrowAction;
 	
 	public Game() {
 		theCave = new Cave();
 		theCharacter = new Character(2,2);
+		arrowAction = new Action(theCharacter);
 	
 	}
 	
@@ -25,5 +29,12 @@ public class Game {
 		Random rand = new Random();
 		theCharacter.hardSetLocation(rand.nextInt(5), rand.nextInt(5));
 	}
-
+	
+	public void turn() {
+		theCharacter.move("NORTH");
+		if (this.getCavernContainingCharacter().hasBats()) {
+			this.characterEntersCavernContainingBats();
+		}
+	}
+	
 }
