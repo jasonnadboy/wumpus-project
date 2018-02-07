@@ -7,7 +7,7 @@ public class Game {
 	
 	public Game() {
 		theCave = new Cave();
-		theCharacter = new Character(1,1);
+		theCharacter = new Character(2,2);
 	
 	}
 	

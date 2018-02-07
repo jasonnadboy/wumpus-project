@@ -23,7 +23,7 @@ public class Cave {
 	
 	private void setBats(int numberOfBats) {
 		caverns[0][1].putBats();
-		caverns[2][2].putBats();
+		caverns[3][2].putBats();
 	}
 	
 	private void setPits(int numberOfPits) {
