@@ -25,8 +25,8 @@ public class test {
 	}
 
 	private String findCavernDirection(int originX, int originY, int destinationX, int destinationY) {
-		var xDifference = destinationX - originX;
-		var yDifference = destinationY - originY;
+		int xDifference = destinationX - originX;
+		int yDifference = destinationY - originY;
 
 		if(xDifference == 1 && yDifference == 0) {
 			return "E";
