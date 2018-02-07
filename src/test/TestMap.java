@@ -12,12 +12,12 @@ public class TestMap {
 		theMap = new TestMap9();
 	}
 	
-	public void setX(String x) {
-		from = x;
+	public void setX(int x) {
+		from = String.valueOf(x);
 	}
 	
-	public void setY(String y) {
-		to = y;
+	public void setY(int y) {
+		to = String.valueOf(y);
 	}
 	
 	public String direction() {
