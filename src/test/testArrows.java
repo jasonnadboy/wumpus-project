@@ -13,7 +13,7 @@ public class testArrows {
 	public String arrowCount0ReturnError() {
 		Game newGame = new Game();
 		newGame.theCharacter.setNoOfArrows(0);
-		return newGame.arrowAction.shootArrow();
+		return newGame.theCharacter.shootArrow();
 		}
 
 }

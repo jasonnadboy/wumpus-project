@@ -1,10 +1,13 @@
 package gridCave;
 
+import arrows.Action;
+
 public class Character {
 	
 	private int x;
 	private int y;
 	private int noOfArrows = 5;
+	public Action arrowAction;
 
 	public Character(int startX, int startY) {
 		x = startX;
@@ -37,6 +40,16 @@ public class Character {
 	public void hardSetLocation(int newX, int newY) {
 		x = newX;
 		y = newY;
+	}
+	
+	public String shootArrow() {
+		if (noOfArrows > 0) {
+			arrowAction.shootArrow();
+			noOfArrows--;
+			return "Arrow shot in x direction";
+		}  else {
+		return "You do not have any arrows left";
+		}
 	}
 
 	public int getNoOfArrows() {

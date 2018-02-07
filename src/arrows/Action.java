@@ -6,17 +6,10 @@ public class Action {
 	
 	Character character;
 	
-	public Action(Character character) {
-		this.character = character;
+	public Action() {
 	}
 	
-	public String shootArrow() {
-		int numberOfArrows = character.getNoOfArrows();
-		if (numberOfArrows > 0) {
-			character.setNoOfArrows(numberOfArrows--);
-			return "Arrow shot";
-		} else {
-			return "You do not have any arrows left";
-		}
+	public void shootArrow() {
+		System.out.println("DIRECTIONS & HITS NECESSARY");
 	}
 }
