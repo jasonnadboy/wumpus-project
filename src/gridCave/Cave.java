@@ -15,10 +15,32 @@ public class Cave {
 				caverns[x][y] = new Cavern(cavernNumbers[counter]);
 				counter++;
 			}
-		}
-		
+		}		
 	}
-	
-	
 
+	public Cavern[][] getCave() {
+		return caverns;
+	}
+
+	public int getCavernX(int cavernNumber) {
+		for (int x = 0; x < 3; x++) {
+			for (int y = 0; y < 3; y++) {
+				if(caverns[x][y].getCavernNumber() == cavernNumber) {
+					return x;
+				}
+			}
+		}
+		return null;
+	}
+
+	public int getCavernY(int cavernNumber) {
+		for (int x = 0; x < 3; x++) {
+			for (int y = 0; y < 3; y++) {
+				if(caverns[x][y].getCavernNumber() == cavernNumber) {
+					return y;
+				}
+			}
+		}
+		return null;
+	}
 }

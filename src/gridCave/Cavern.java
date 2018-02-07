@@ -8,4 +8,8 @@ public class Cavern {
 		identity = i;
 	}
 
+	public int getCavernNumber() {
+		return identity;
+	}
+
 }
