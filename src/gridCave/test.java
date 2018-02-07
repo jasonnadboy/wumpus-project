@@ -4,6 +4,11 @@ public class test {
 	
 	private int cavernOrigin;
 	private int cavernDestination;
+
+	private int originX;
+	private int originY;
+	private int destinationX;
+	private int destinationY;
 	
 	public void setCurrentCavern(int cavernNumber) {
 		cavernOrigin = cavernNumber;
@@ -16,15 +21,15 @@ public class test {
 	public String getCavernToCavernDirection(){
 		Cave cave = new Cave();
 		
-		int x1 = cave.getCavernX(cavernOrigin);
-		int y1 = cave.getCavernY(cavernOrigin);
-		int x2 = cave.getCavernX(cavernDestination);
-		int y2 = cave.getCavernY(cavernDestination);
+		originX = cave.getCavernX(cavernOrigin);
+		originY = cave.getCavernY(cavernOrigin);
+		destinationX = cave.getCavernX(cavernDestination);
+		destinationY = cave.getCavernY(cavernDestination);
 		
 		return findCavernDirection(x1,x2,y1,y2);
 	}
 
-	private String findCavernDirection(int originX, int originY, int destinationX, int destinationY) {
+	private String findCavernDirection() {
 		int xDifference = destinationX - originX;
 		int yDifference = destinationY - originY;
 
