@@ -1,4 +1,6 @@
-package gridCave;
+package test;
+
+import gridCave.Cave;
 
 public class test {
 	
