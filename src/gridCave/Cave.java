@@ -76,7 +76,7 @@ public class Cave {
 			boundaryFromCavern = cavernX - 1;
 		}
 
-		if(boundaryFromCavern >= 3 || boundaryFromCavern < 0) {
+		if(boundaryFromCavern >= 5 || boundaryFromCavern < 0) {
 			return true;
 		}
 		else {
