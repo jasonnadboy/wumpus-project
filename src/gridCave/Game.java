@@ -34,4 +34,8 @@ public class Game {
 		}
 	}
 	
+	public void resetCharacterToStartingPoint(){
+		theCharacter.hardSetLocation(2, 2);
+	}
+	
 }
