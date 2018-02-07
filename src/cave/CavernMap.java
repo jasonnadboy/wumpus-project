@@ -5,26 +5,26 @@ import java.util.Map;
 
 public class CavernMap {
 	
-	Map<String, Cavern> caverns;
+	Map<String, Cavern1> caverns;
 	
 	public CavernMap() {
-		caverns = new HashMap<String, Cavern>();
+		caverns = new HashMap<String, Cavern1>();
 	}
 	
-	public Cavern makeNewCavern(String name) {
-		Cavern newCavern = new Cavern(name);
+	public Cavern1 makeNewCavern(String name) {
+		Cavern1 newCavern = new Cavern1(name);
 		caverns.put(name, newCavern);
 		return newCavern;
 	}
 	
-	public Cavern getCavern(String name) {
+	public Cavern1 getCavern(String name) {
 		return caverns.get(name);
 	}
 	
 	public void makeConnection(String fromString, String toString, DIR dir) {
 		
-		Cavern from = this.getCavern(fromString);
-		Cavern to = this.getCavern(toString);
+		Cavern1 from = this.getCavern(fromString);
+		Cavern1 to = this.getCavern(toString);
 		
 		switch(dir) {
 			case N:

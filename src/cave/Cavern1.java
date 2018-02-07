@@ -1,34 +1,34 @@
 package cave;
 
-public class Cavern {
+public class Cavern1 {
 	
 	private String name;
-	private Cavern northConnection;
-	private Cavern southConnection;
-	private Cavern eastConnection;
-	private Cavern westConnection;
+	private Cavern1 northConnection;
+	private Cavern1 southConnection;
+	private Cavern1 eastConnection;
+	private Cavern1 westConnection;
 	
-	public Cavern(String n) {
+	public Cavern1(String n) {
 		name = n;
 	}
 	
-	public void setNorthConnection(Cavern northCavern) {
+	public void setNorthConnection(Cavern1 northCavern) {
 		northConnection = northCavern;
 	}
 	
-	public void setSouthConnection(Cavern southCavern) {
+	public void setSouthConnection(Cavern1 southCavern) {
 		southConnection = southCavern;
 	}
 	
-	public void setEastConnection(Cavern eastCavern) {
+	public void setEastConnection(Cavern1 eastCavern) {
 		eastConnection = eastCavern;
 	}
 	
-	public void setWestConnection(Cavern westCavern) {
+	public void setWestConnection(Cavern1 westCavern) {
 		westConnection = westCavern;
 	}
 	
-	public Cavern getConnection(DIR dir) {
+	public Cavern1 getConnection(DIR dir) {
 		switch(dir) {
 			case N:
 				return northConnection;
