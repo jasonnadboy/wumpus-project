@@ -38,5 +38,14 @@ public class CavernMap {
 		}	
 	
 	}
+	
+	public DIR getConnection(String fromString, String toString) {
+		for (DIR d : DIR.values()) {
+			if (caverns.get(fromString).getConnection(d).equals(caverns.get(toString))) {
+				return d;
+			}
+		}
+		return null;
+	}
 
 }

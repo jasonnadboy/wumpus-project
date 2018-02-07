@@ -23,21 +23,17 @@ public class Cavern {
 		westConnection = westCavern;
 	}
 	
-	public Cavern getNorthConnection() {
-		return northConnection;
+	public Cavern getConnection(DIR dir) {
+		switch(dir) {
+			case NORTH:
+				return northConnection;
+			case SOUTH:
+				return southConnection;
+			case EAST:
+				return eastConnection;
+			default:
+				return westConnection;
+		}		
+	
 	}
-	
-	public Cavern getSouthConnection() {
-		return southConnection;
-	}
-	
-	public Cavern getEastConnection() {
-		return eastConnection;
-	}
-	
-	public Cavern getWestConnection() {
-		return westConnection;
-	}
-	
-	
 }

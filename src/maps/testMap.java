@@ -3,7 +3,15 @@ package maps;
 import cave.CavernMap;
 import cave.DIR;
 
-public class testMap {
+public class TestMap {
+	
+	private CavernMap map;
+	private String from;
+	private String to;
+	
+	public TestMap() {
+		map = this.buildMap();
+	}
 	
 	public CavernMap buildMap() {
 		
@@ -20,6 +28,7 @@ public class testMap {
 		map.makeNewCavern("9");
 		
 		map.makeConnection("1", "2", DIR.EAST);
+		map.makeConnection("2", "1", DIR.WEST);
 		map.makeConnection("2", "3", DIR.EAST);
 		map.makeConnection("3", "4", DIR.SOUTH);
 		map.makeConnection("4", "5", DIR.SOUTH);
@@ -32,6 +41,14 @@ public class testMap {
 		
 		return map;
 		
+	}
+	
+	public void setX(String x) {
+		from = x;
+	}
+	
+	public void setY(String y) {
+		to = y;
 	}
 
 }
