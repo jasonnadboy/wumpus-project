@@ -3,7 +3,6 @@ package gridCave;
 public class Cave {
 	
 	Cavern[][] caverns;
-	//commentntngdnidsdi
 	
 	public Cave() {
 		
@@ -57,5 +56,31 @@ public class Cave {
 			}
 		}
 		return -1;
+	}
+	
+	public boolean boundaryExists(int cavernNumber, String direction) {
+		int cavernX = getCavernX(cavernNumber);
+		int cavernY = getCavernY(cavernNumber);
+		int boundaryFromCavern = 0;
+		
+		if (direction.toUpperCase().equals("NORTH")) {
+			boundaryFromCavern = cavernY - 1;
+		}
+		if (direction.toUpperCase().equals("SOUTH")) {
+			boundaryFromCavern = cavernY + 1;
+		}
+		if (direction.toUpperCase().equals("EAST")) {
+			boundaryFromCavern = cavernX + 1;
+		}
+		if (direction.toUpperCase().equals("WEST")) {
+			boundaryFromCavern = cavernX - 1;
+		}
+
+		if(boundaryFromCavern >= 3 || boundaryFromCavern < 0) {
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 }
