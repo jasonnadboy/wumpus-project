@@ -6,12 +6,12 @@ public class Cave {
 	
 	public Cave() {
 		
-		int[] cavernNumbers = {1,2,3,8,9,4,7,6,5};
+		int[] cavernNumbers = {1,2,3,4,5,16,17,18,19,6,15,24,25,20,7,14,23,22,21,8,13,12,11,10,9};
 		int counter = 0;
 		
-		caverns = new Cavern[3][3];
-		for (int y = 0; y < 3; y++) {
-			for (int x = 0; x < 3; x++) {
+		caverns = new Cavern[5][5];
+		for (int y = 0; y < 5; y++) {
+			for (int x = 0; x < 5; x++) {
 				caverns[x][y] = new Cavern(cavernNumbers[counter]);
 				counter++;
 			}
@@ -23,7 +23,7 @@ public class Cave {
 	
 	private void setBats(int numberOfBats) {
 		caverns[0][1].putBats();
-		caverns[2][2].putBats();
+		caverns[3][2].putBats();
 	}
 	
 	private void setPits(int numberOfPits) {
@@ -36,8 +36,8 @@ public class Cave {
 	}
 
 	public int getCavernX(int cavernNumber) {
-		for (int x = 0; x < 3; x++) {
-			for (int y = 0; y < 3; y++) {
+		for (int x = 0; x < 5; x++) {
+			for (int y = 0; y < 5; y++) {
 				if(caverns[x][y].getCavernNumber() == cavernNumber) {
 					return x;
 				}
@@ -48,8 +48,8 @@ public class Cave {
 	}
 
 	public int getCavernY(int cavernNumber) {
-		for (int x = 0; x < 3; x++) {
-			for (int y = 0; y < 3; y++) {
+		for (int x = 0; x < 5; x++) {
+			for (int y = 0; y < 5; y++) {
 				if(caverns[x][y].getCavernNumber() == cavernNumber) {
 					return y;
 				}
