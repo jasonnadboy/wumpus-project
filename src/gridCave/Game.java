@@ -25,5 +25,12 @@ public class Game {
 		Random rand = new Random();
 		theCharacter.hardSetLocation(rand.nextInt(5), rand.nextInt(5));
 	}
-
+	
+	public void turn() {
+		theCharacter.move("NORTH");
+		if (this.getCavernContainingCharacter().hasBats()) {
+			this.characterEntersCavernContainingBats();
+		}
+	}
+	
 }
