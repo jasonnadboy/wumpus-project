@@ -30,7 +30,8 @@ public class Cave {
 				}
 			}
 		}
-		return null;
+		return -1;
+
 	}
 
 	public int getCavernY(int cavernNumber) {
@@ -41,6 +42,6 @@ public class Cave {
 				}
 			}
 		}
-		return null;
+		return -1;
 	}
 }

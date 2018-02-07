@@ -2,14 +2,14 @@ package gridCave;
 
 public class Cavern {
 	
-	private int identity;
+	private int cavernNumber;
 	
 	public Cavern(int i) {
-		identity = i;
+		cavernNumber = i;
 	}
 
 	public int getCavernNumber() {
-		return identity;
+		return cavernNumber;
 	}
 
 }
