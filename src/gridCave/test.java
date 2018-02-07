@@ -39,10 +39,10 @@ public class test {
 		else if (xDifference == 0 && yDifference == -1) {
 			return "W";
 		}
-		else if (xDifference == 1 && yDifference == 0) {
+		else if (xDifference == -1 && yDifference == 0) {
 			return "N";
 		}
-		else if (xDifference == -1 && yDifference == 0) {
+		else if (xDifference == 1 && yDifference == 0) {
 			return "S";
 		} else {
 			return null;
