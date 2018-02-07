@@ -33,16 +33,16 @@ public class test {
 		int xDifference = destinationX - originX;
 		int yDifference = destinationY - originY;
 
-		if(xDifference == 0 && yDifference == 1) {
+		if(xDifference == 1 && yDifference == 0) {
 			return "E";
 		}
-		else if (xDifference == 0 && yDifference == -1) {
+		else if (xDifference == -1 && yDifference == 0) {
 			return "W";
 		}
-		else if (xDifference == -1 && yDifference == 0) {
+		else if (xDifference == 0 && yDifference == 1) {
 			return "N";
 		}
-		else if (xDifference == 1 && yDifference == 0) {
+		else if (xDifference == 0 && yDifference == -1) {
 			return "S";
 		} else {
 			return null;
