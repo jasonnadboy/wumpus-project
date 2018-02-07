@@ -15,9 +15,22 @@ public class Cave {
 				caverns[x][y] = new Cavern(cavernNumbers[counter]);
 				counter++;
 			}
-		}		
+		}
+		
+		setBats(2);
+		setPits(2);
 	}
-
+	
+	private void setBats(int numberOfBats) {
+		caverns[0][1].putBats();
+		caverns[2][2].putBats();
+	}
+	
+	private void setPits(int numberOfPits) {
+		caverns[1][0].putPit();
+		caverns[0][2].putPit();
+	}
+	
 	public Cavern[][] getCave() {
 		return caverns;
 	}
