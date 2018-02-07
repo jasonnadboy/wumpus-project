@@ -28,6 +28,7 @@ public class TestMap9 {
 		map.makeNewCavern("9");
 		
 		map.makeConnection("1", "2", DIR.E);
+		/**
 		map.makeConnection("2", "3", DIR.E);
 		map.makeConnection("3", "4", DIR.S);
 		map.makeConnection("4", "5", DIR.S);
@@ -37,7 +38,7 @@ public class TestMap9 {
 		map.makeConnection("8", "1", DIR.N);	
 		map.makeConnection("2", "9", DIR.S);
 		map.makeConnection("9", "6", DIR.S);
-		
+		**/
 		return map;
 		
 	}

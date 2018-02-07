@@ -1,5 +1,6 @@
 package test;
 
+import cave.DIR;
 import maps.TestMap9;
 
 public class TestMap {
@@ -20,8 +21,8 @@ public class TestMap {
 		to = String.valueOf(y);
 	}
 	
-	public String direction() {
-		return theMap.getConnection(from, to).toString();
+	public DIR direction() {
+		return theMap.getConnection(from, to);
 	}
 
 }

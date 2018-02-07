@@ -2,10 +2,15 @@ package cave;
 
 public class Cavern {
 	
+	private String name;
 	private Cavern northConnection;
 	private Cavern southConnection;
 	private Cavern eastConnection;
 	private Cavern westConnection;
+	
+	public Cavern(String n) {
+		name = n;
+	}
 	
 	public void setNorthConnection(Cavern northCavern) {
 		northConnection = northCavern;
@@ -31,9 +36,15 @@ public class Cavern {
 				return southConnection;
 			case E:
 				return eastConnection;
-			default:
+			case W:
 				return westConnection;
+			default:
+				return null;
 		}		
 	
+	}
+	
+	public String getName() {
+		return name;
 	}
 }

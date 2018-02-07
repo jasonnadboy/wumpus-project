@@ -12,7 +12,7 @@ public class CavernMap {
 	}
 	
 	public Cavern makeNewCavern(String name) {
-		Cavern newCavern = new Cavern();
+		Cavern newCavern = new Cavern(name);
 		caverns.put(name, newCavern);
 		return newCavern;
 	}
@@ -36,17 +36,21 @@ public class CavernMap {
 			case E:
 				from.setEastConnection(to);
 				to.setWestConnection(from);
-			default:
+			case W:
 				from.setWestConnection(to);
 				to.setEastConnection(from);
+			default: 
 		}	
 	
 	}
 	
 	public DIR getConnection(String fromString, String toString) {
+		System.out.println("From: " + fromString + "      To: " + toString);
 		for (DIR d : DIR.values()) {
-			if (caverns.get(fromString).getConnection(d).equals(caverns.get(toString))) {
-				return d;
+			if (caverns.get(fromString).getConnection(d) != null) {
+				System.out.println("Direction: " + d);
+				System.out.println(caverns.get(fromString).getConnection(d).getName());
+				System.out.println(caverns.get(toString).getName());
 			}
 		}
 		return null;
