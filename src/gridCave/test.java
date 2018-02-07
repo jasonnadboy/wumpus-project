@@ -26,7 +26,7 @@ public class test {
 		destinationX = cave.getCavernX(cavernDestination);
 		destinationY = cave.getCavernY(cavernDestination);
 		
-		return findCavernDirection(x1,x2,y1,y2);
+		return findCavernDirection();
 	}
 
 	private String findCavernDirection() {
