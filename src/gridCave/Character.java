@@ -33,4 +33,9 @@ public class Character {
 		}	
 	}
 	
+	public void hardSetLocation(int newX, int newY) {
+		x = newX;
+		y = newY;
+	}
+	
 }
