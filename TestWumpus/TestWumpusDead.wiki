@@ -1,0 +1,5 @@
+|import|
+|test|
+
+|script|TestWumpusisDead|
+|Check|WumpusisDead|True|generatesMessage|You have killed the Wumpus. Well done|

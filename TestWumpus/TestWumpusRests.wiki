@@ -1,0 +1,5 @@
+|import|
+|test|
+
+|script|TestWumpusRests|
+|Check|Wumpus|movementisrest|True|Wumpus location is unchanged|Playersmove|True|

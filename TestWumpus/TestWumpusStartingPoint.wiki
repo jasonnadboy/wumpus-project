@@ -1,0 +1,5 @@
+|import|
+|test|
+
+|script|Test Wumpus Starting Point|
+|ensure|wumpusStartingPoint|not Equals|cavern|25|

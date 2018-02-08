@@ -1,0 +1,5 @@
+|import|
+|test|
+
+|script|Test Smell the Wumpus|
+|Check|isWumpusAdjacent|returns|True|generatesMessage|You have smelled the Wumpus|
