@@ -152,4 +152,36 @@ public class Cave {
 		
 		return false;
 	}
+	
+	public boolean batNearby(int cavernNumber) {
+		int x = getCavernX(cavernNumber);
+		int y = getCavernY(cavernNumber);
+		
+		Cavern northernCavern = null;
+		Cavern southernCavern = null;
+		Cavern easternCavern = null;
+		Cavern westernCavern = null;
+		
+		if(!boundaryExists(cavernNumber, "NORTH")) {
+			northernCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "SOUTH")) {
+			southernCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "EAST")) {
+			easternCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "WEST")) {
+			westernCavern = caverns[x][y-1];
+		}
+
+		if((northernCavern!= null && northernCavern.hasBats()) 
+				|| (southernCavern!= null && southernCavern.hasBats())  
+				|| (easternCavern!= null && easternCavern.hasBats()) 
+				|| (westernCavern!= null && westernCavern.hasBats()) ) {
+			return true;
+		}
+		
+		return false;
+	}
 }
