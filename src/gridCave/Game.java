@@ -67,6 +67,10 @@ public class Game {
 		theWumpus.move();
 	}
 	
+	public void wumpusLocation() {
+		System.out.println("W " + this.getCavernContainingWumpus().getCavernNumber());
+	}
+	
 	public String turn(String direction) {
 		
 		if(theCave.boundaryExists(this.getCavernContainingCharacter().getCavernNumber(), direction)) {
@@ -112,6 +116,10 @@ public class Game {
 			return outputMessage;
 		}
 		
+		if (this.isPlayerNearWumpus()) {
+			outputMessage+= "You smell coffee. ";
+		}
+		
 		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
 			outputMessage+= "You feel wind. ";
 		}
@@ -153,6 +161,21 @@ public class Game {
 		}
 		
 		return outputMessage;
+		
+	}
+	
+	public boolean isPlayerNearWumpus() {
+		
+		int x1 = theCharacter.getX();
+		int y1 = theCharacter.getY();
+		int x2 = theWumpus.getLocationX();
+		int y2 = theWumpus.getLocationY();
+		
+		if ((Math.abs(x1-x2) + Math.abs(y1-y2)) == 1) {
+			return true;
+		}
+		
+		return false;
 		
 	}
 	

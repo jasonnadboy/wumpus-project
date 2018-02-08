@@ -26,7 +26,7 @@ public class Main {
 		
 		while (!newGame.isGameOver()) {
 			System.out.println("Please input your next move: ");
-			
+			newGame.wumpusLocation();
 			String input = scanner.nextLine();
 			
 			String outputMessage = newGame.turn(input);
