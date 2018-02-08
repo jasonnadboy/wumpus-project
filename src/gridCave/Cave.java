@@ -1,12 +1,13 @@
 package gridCave;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
 
 public class Cave {
 	
 	Cavern[][] caverns;
-	HashSet<Cavern> cavernsWithBats;
+	ArrayList<Cavern> cavernsWithBats;
 	
 	public Cave() {
 		
@@ -21,7 +22,7 @@ public class Cave {
 			}
 		}
 		
-		cavernsWithBats = new HashSet<Cavern>();
+		cavernsWithBats = new ArrayList<Cavern>();
 		
 		setBats(2);
 		setPits(2);
@@ -37,6 +38,7 @@ public class Cave {
 				randomY = rand.nextInt(5);
 			}
 			caverns[randomX][randomY].putBats();
+			cavernsWithBats.add(caverns[randomX][randomY]);
 		}
 	}
 	
@@ -50,7 +52,6 @@ public class Cave {
 				randomY = rand.nextInt(5);
 			}
 			caverns[randomX][randomY].putPit();
-			cavernsWithBats.add(caverns[randomX][randomY]);
 		}
 		
 	}
@@ -108,7 +109,7 @@ public class Cave {
 		}
 	}
 	
-	public HashSet<Cavern> getCavernsWithBats() {
+	public ArrayList<Cavern> getCavernsWithBats() {
 		return cavernsWithBats;
 	}
 }

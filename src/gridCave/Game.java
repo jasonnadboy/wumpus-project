@@ -68,10 +68,25 @@ public class Game {
 			return "Cannot move in this direction due to boundary - please try again.";
 		}
 		
+		if(!directions.contains(direction)) {
+			return "Invalid direction given. Please try again.";
+		}
+		
 		String outputMessage = "";
 		
 		theCharacter.move(direction);
+		
+		if (direction.equals("REST")) {
+			outputMessage+="You have successfully rested. ";
+		}
+		else {
+			outputMessage+="You have successfully moved ";
+			outputMessage+=direction.toLowerCase();
+			outputMessage+=". ";
+		}
+
 		theWumpus.move();
+		
 		
 		if (theWumpus.getLocationX() == theCharacter.getX()) {
 			if (theWumpus.getLocationY() == theCharacter.getY()) {
@@ -79,11 +94,18 @@ public class Game {
 				outputMessage+= "The Wumpus got you. Game over.";
 			}
 		}
-		
+
 		if (this.getCavernContainingCharacter().hasBats()) {
 			this.characterEntersCavernContainingBats();
 			outputMessage+= "You have entered a cavern infested with bats and they have flown you to a random location in the cave. ";
 		}
+		
+		if (this.getCavernContainingCharacter().hasPits()) {
+			this.gameOver();
+			outputMessage+= "You fell in a pit. Game over.";
+		}
+		
+		
 		
 		return outputMessage;
 	}

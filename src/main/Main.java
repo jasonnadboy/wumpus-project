@@ -19,7 +19,7 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		while (!newGame.isGameOver()) {
-			System.out.println("You turn. Please input your move: ");
+			System.out.println("Please input your next move: ");
 			String input = scanner.nextLine();
 			
 			String outputMessage = newGame.turn(input);
