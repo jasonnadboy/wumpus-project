@@ -1,5 +1,7 @@
 package gridCave;
 
+import java.util.Random;
+
 public class Cave {
 	
 	Cavern[][] caverns;
@@ -22,13 +24,29 @@ public class Cave {
 	}
 	
 	private void setBats(int numberOfBats) {
-		caverns[2][1].putBats();
-		caverns[3][2].putBats();
+		Random rand = new Random();
+		for(int i = 0; i < numberOfBats; i++) {
+			int randomX = rand.nextInt(5);
+			int randomY = rand.nextInt(5);
+			while(randomX == 2 && randomY == 2) {
+				randomX = rand.nextInt(5);
+				randomY = rand.nextInt(5);
+			}
+			caverns[randomX][randomY].putBats();
+		}
 	}
 	
 	private void setPits(int numberOfPits) {
-		caverns[1][0].putPit();
-		caverns[0][2].putPit();
+		Random rand = new Random();
+		for(int i = 0; i < numberOfPits; i++) {
+			int randomX = rand.nextInt(5);
+			int randomY = rand.nextInt(5);
+			while(randomX == 2 && randomY == 2) {
+				randomX = rand.nextInt(5);
+				randomY = rand.nextInt(5);
+			}
+			caverns[randomX][randomY].putPit();
+		}
 	}
 	
 	public Cavern[][] getCave() {
