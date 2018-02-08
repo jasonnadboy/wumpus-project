@@ -8,6 +8,7 @@ public class Cave {
 	
 	Cavern[][] caverns;
 	ArrayList<Cavern> cavernsWithBats;
+	ArrayList<Cavern> cavernsWithPits;
 	
 	public Cave() {
 		
@@ -23,9 +24,11 @@ public class Cave {
 		}
 		
 		cavernsWithBats = new ArrayList<Cavern>();
+		cavernsWithPits = new ArrayList<Cavern>();
 		
 		setBats(2);
 		setPits(2);
+	
 	}
 	
 	private void setBats(int numberOfBats) {
@@ -52,6 +55,7 @@ public class Cave {
 				randomY = rand.nextInt(5);
 			}
 			caverns[randomX][randomY].putPit();
+			cavernsWithPits.add(caverns[randomX][randomY]);
 		}
 		
 	}
