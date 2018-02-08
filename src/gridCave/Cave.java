@@ -134,13 +134,13 @@ public class Cave {
 			northernCavern = caverns[x][y-1];
 		}
 		if(!boundaryExists(cavernNumber, "SOUTH")) {
-			southernCavern = caverns[x][y-1];
+			southernCavern = caverns[x][y+1];
 		}
 		if(!boundaryExists(cavernNumber, "EAST")) {
-			easternCavern = caverns[x][y-1];
+			easternCavern = caverns[x+1][y];
 		}
 		if(!boundaryExists(cavernNumber, "WEST")) {
-			westernCavern = caverns[x][y-1];
+			westernCavern = caverns[x-1][y];
 		}
 
 		if((northernCavern!= null && northernCavern.hasPits()) 
@@ -166,13 +166,13 @@ public class Cave {
 			northernCavern = caverns[x][y-1];
 		}
 		if(!boundaryExists(cavernNumber, "SOUTH")) {
-			southernCavern = caverns[x][y-1];
+			southernCavern = caverns[x][y+1];
 		}
 		if(!boundaryExists(cavernNumber, "EAST")) {
-			easternCavern = caverns[x][y-1];
+			easternCavern = caverns[x+1][y];
 		}
 		if(!boundaryExists(cavernNumber, "WEST")) {
-			westernCavern = caverns[x][y-1];
+			westernCavern = caverns[x-1][y];
 		}
 
 		if((northernCavern!= null && northernCavern.hasBats()) 
