@@ -7,6 +7,7 @@ public class Game {
 	
 	public Character theCharacter;
 	public Cave theCave;
+	public Wumpus theWumpus;
 	
 	public Game() {
 		theCave = new Cave();
@@ -29,9 +30,20 @@ public class Game {
 	
 	public void turn(String direction) {
 		theCharacter.move(direction);
+		theWumpus.move();
+		if (theWumpus.getLocationX() == theCharacter.getX()) {
+			if (theWumpus.getLocationY() == theCharacter.getY()) {
+				this.gameOver();
+			}
+		}
 		if (this.getCavernContainingCharacter().hasBats()) {
 			this.characterEntersCavernContainingBats();
 		}
+		
+	}
+	
+	public void gameOver() {
+		
 	}
 	
 	public void resetCharacterToStartingPoint(){
