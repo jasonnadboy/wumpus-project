@@ -1,0 +1,2 @@
+|Check|OnlyOneMoveAllowed|True|
+|Ensure|OnlyOneMoveAllowed|Equals|North or| South or| East or| West or| Shoot or| Rest|

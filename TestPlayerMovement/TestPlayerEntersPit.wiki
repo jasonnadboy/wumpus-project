@@ -1,0 +1,3 @@
+|script|TestPlayerMovesIntoPit|
+|Check|getplayerlocation|Equals|getpitLocation|generateMessage|You fell in the pit. Game Over|
+|Ensure|GameOver|True|

@@ -1,0 +1,4 @@
+|import|
+|test|
+
+!include <HuntTheWumpus.MapSuite.TestBoundary

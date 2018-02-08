@@ -1,0 +1,4 @@
+|script|TestPlayerMovesIntoBats|
+|Check|getplayerlocation|Equals|getbatLocation|TransporttoRandomlocation|
+|Ensure|NewLocation|True|
+|Check|NewLocation|Not Equal To|OldLocation
