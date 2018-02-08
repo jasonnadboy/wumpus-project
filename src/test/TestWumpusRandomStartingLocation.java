@@ -11,10 +11,21 @@ public class TestWumpusRandomStartingLocation {
 		for (int i = 0; i < 10000; i++) {
 			Game theGame = new Game();
 			int cavernNumber = theGame.getCavernContainingWumpus().getCavernNumber();
-			count[cavernNumber]++;
+			count[cavernNumber-1]++;
 		}
 	}
 	
-	public boolean 
+	public boolean wumpusStartingPointIsRandomlyDistributed() {
+		if (count[24] != 0) {
+			return false;
+		}
+		count[24] = 325;
+		for (int i : count) {
+			if (i < 325) {
+				return false;
+			}
+		}
+		return true;
+	}
 
 }

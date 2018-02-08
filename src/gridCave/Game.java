@@ -42,6 +42,10 @@ public class Game {
 		theCharacter.hardSetLocation(rand.nextInt(5), rand.nextInt(5));
 	}
 	
+	public void moveWumpus() {
+		theWumpus.move();
+	}
+	
 	public void turn(String direction) {
 		theCharacter.move(direction);
 		theWumpus.move();
@@ -60,7 +64,7 @@ public class Game {
 		
 	}
 	
-	public void resetCharacterToStartingPoint(){
+	public void resetCharacterToStartingPoint() {
 		theCharacter.hardSetLocation(2, 2);
 	}
 	
