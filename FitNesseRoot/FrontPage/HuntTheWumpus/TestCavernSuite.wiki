@@ -1,4 +1,4 @@
 >TotalNumberOfCaverns
 >CavernContainsEnemy
 >AdjacentCavernContainsEnemy
->BatsAndPitsAndWumpusCavernIsRandom
+>BatsAndPitsCavernIsRandom

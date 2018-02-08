@@ -6,27 +6,21 @@ import gridCave.Cave;
 import gridCave.Cavern;
 import gridCave.Game;
 
-public class BatsAndPitsAndWumpusCavernIsRandom {
-	private Game theGame = new Game();
+public class BatsAndPitsCavernIsRandom {
 	private int[] count = new int[25];
 	
-	public void TestWumpusRandomMovement() {
-		for (int i = 0; i < 10000; i++) {
-			for (int j = 0; j < 1000; j++) {
-				theGame.moveWumpus();
-			}
-			int cavernNumber = theGame.getCavernContainingWumpus().getCavernNumber();
-			count[cavernNumber-1]++;
-		}
+	public BatsAndPitsCavernIsRandom() {
 		
 	}
 	
 	public void TestPitsRandomPlacement() {
 		for (int i = 0; i < 10000; i++) {
-			Game newGame = new Game();
-			//Cavern pitCavern = newGame.
-			//int cavernNumber = pitCavern.getCavernNumber();
-			//count[cavernNumber-1]++;
+			Cave newCave = new Cave();
+			ArrayList<Cavern> pitCaverns = newCave.getCavernWithPits();
+			for(Cavern c : pitCaverns) {
+				int cavernNumber = c.getCavernNumber();
+				count[cavernNumber-1]++;
+			}
 		}
 		
 	}
@@ -44,9 +38,12 @@ public class BatsAndPitsAndWumpusCavernIsRandom {
 	}
 	
 	public boolean evenDistributionAfter10000Games() {
-		for (int c : count) {
-			if (c < 200) {
-				return false;
+		for (int c = 0; c < count.length; c++) {
+			System.out.println(String.valueOf(c));
+			if(c != 24) {
+				if (count[c] < 250) {
+					return false;
+				}
 			}
 		}
 		return true;

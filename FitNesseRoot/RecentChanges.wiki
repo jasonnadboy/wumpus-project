@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 |FrontPage.HuntTheWumpus.TestWumpus.TestWumpusStartingPoint||17:14:05 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestWumpus.TestWumpusRests||17:09:08 Thu, Feb 08, 2018|
+=======
+|FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsCavernIsRandom||16:29:23 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestCavernSuite||16:28:58 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsAndWumpusCavernIsRandom||16:28:48 Thu, Feb 08, 2018|
+>>>>>>> origin/master
 |FrontPage.HuntTheWumpus.TestWumpus||15:45:56 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus||15:44:56 Thu, Feb 08, 2018|
-|FrontPage.HuntTheWumpus.TestCavernSuite||15:44:26 Thu, Feb 08, 2018|
-|FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsAndWumpusCavernIsRandom||15:44:05 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.AdjacentCavernContainsEnemy||15:01:07 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.CavernContainsEnemy||12:03:04 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.TotalNumberOfCaverns||09:58:08 Thu, Feb 08, 2018|
