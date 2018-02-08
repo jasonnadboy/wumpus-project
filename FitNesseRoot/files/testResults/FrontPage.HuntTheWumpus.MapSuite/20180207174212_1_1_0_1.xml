@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.HuntTheWumpus.MapSuite</rootPath>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.MapSuite.TestBoundary</name>
+    <date>2018-02-07T17:42:12+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.MapSuite.TestBoundary?pageHistory&amp;resultDate=20180207174212</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>162</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.MapSuite.TestMap</name>
+    <date>2018-02-07T17:42:12+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.MapSuite.TestMap?pageHistory&amp;resultDate=20180207174212</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>20</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>250</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.MapSuite.TestStartingPoint</name>
+    <date>2018-02-07T17:42:13+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.MapSuite.TestStartingPoint?pageHistory&amp;resultDate=20180207174213</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/Eclipse/FitNesse/fitnesse-standalone.jar:/Users/mamaddox/Documents/GitHub/wumpus-project/bin fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/Eclipse/FitNesse/fitnesse-standalone.jar fit.FitServer Marias-MacBook.local 59119 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1650</totalRunTimeInMillis>
+</suiteResults>
+

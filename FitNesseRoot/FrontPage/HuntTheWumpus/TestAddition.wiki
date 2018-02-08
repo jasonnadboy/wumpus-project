@@ -1,0 +1,10 @@
+!define TEST_SYSTEM {slim}
+!path /Users/mamaddox/Documents/Eclipse/HuntTheWumpus/bin
+
+|import|
+|huntTheWumpus|
+
+|Try Addition|
+|a|b|sumTwoNumbers?|
+|1|2|3|
+|2|3|5|

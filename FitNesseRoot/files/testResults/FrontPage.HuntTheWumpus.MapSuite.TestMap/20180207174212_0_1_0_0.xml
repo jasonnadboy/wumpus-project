@@ -1,0 +1,978 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.HuntTheWumpus.MapSuite.TestMap</rootPath>
+    <result>
+    <counts>
+      <right>4</right>
+      <wrong>20</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-02-07T17:42:12+00:00</date>
+    <runTimeInMillis>250</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/mamaddox/Documents/GitHub/wumpus-project/bin&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Current Cavern&lt;/td&gt;
+		&lt;td&gt;Destination Cavern&lt;/td&gt;
+		&lt;td&gt;getCavernToCavernDirection?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;E&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;W&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;E&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;W&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;E&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;S&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;W&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;N&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;E&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;S&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;W&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;N&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;S&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;W&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;N&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;E&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;S&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;W&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;N&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;E&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;S&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;N&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;N&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;S&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;N&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;S&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;S&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;N&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;S&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;N&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;W&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;null&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;E&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;S&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;E&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;N&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;W&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestMap</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='test'}</instruction>
+        <slimResult>pass(test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='test', args=[]}</instruction>
+        <slimResult>pass(test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>pass(E)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_7</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>E</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_9</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_10</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>pass(W)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_12</instructionId>
+                    <col>2</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>W</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_14</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_15', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_15</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>pass(E)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_17</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>E</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_19</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_20</instructionId>
+                    <col>1</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>pass(W)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_22</instructionId>
+                    <col>2</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>W</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_24</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_25</instructionId>
+                    <col>1</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_27', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=E;e=S)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_27</instructionId>
+                    <col>2</col>
+                              <row>6</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>E</actual>
+                              <expected>S</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_29', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_29</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_30', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_30</instructionId>
+                    <col>1</col>
+                              <row>7</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_32', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=W;e=N)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_32</instructionId>
+                    <col>2</col>
+                              <row>7</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>W</actual>
+                              <expected>N</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_34', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_34</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_35', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_35</instructionId>
+                    <col>1</col>
+                              <row>8</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_37', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=E;e=S)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_37</instructionId>
+                    <col>2</col>
+                              <row>8</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>E</actual>
+                              <expected>S</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_39', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_39</instructionId>
+                    <col>0</col>
+                              <row>9</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_40', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_40</instructionId>
+                    <col>1</col>
+                              <row>9</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_42', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=W;e=N)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_42</instructionId>
+                    <col>2</col>
+                              <row>9</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>W</actual>
+                              <expected>N</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_44', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_44</instructionId>
+                    <col>0</col>
+                              <row>10</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_45', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_45</instructionId>
+                    <col>1</col>
+                              <row>10</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_47', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=S;e=W)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_47</instructionId>
+                    <col>2</col>
+                              <row>10</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>S</actual>
+                              <expected>W</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_49', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_49</instructionId>
+                    <col>0</col>
+                              <row>11</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_50', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_50</instructionId>
+                    <col>1</col>
+                              <row>11</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_52', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=N;e=E)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_52</instructionId>
+                    <col>2</col>
+                              <row>11</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>N</actual>
+                              <expected>E</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_54', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_54</instructionId>
+                    <col>0</col>
+                              <row>12</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_55', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_55</instructionId>
+                    <col>1</col>
+                              <row>12</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_57', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=S;e=W)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_57</instructionId>
+                    <col>2</col>
+                              <row>12</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>S</actual>
+                              <expected>W</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_59', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_59</instructionId>
+                    <col>0</col>
+                              <row>13</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_60', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_60</instructionId>
+                    <col>1</col>
+                              <row>13</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_62', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=N;e=E)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_62</instructionId>
+                    <col>2</col>
+                              <row>13</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>N</actual>
+                              <expected>E</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_64', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_64</instructionId>
+                    <col>0</col>
+                              <row>14</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_65', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_65</instructionId>
+                    <col>1</col>
+                              <row>14</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_67', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=S;e=N)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_67</instructionId>
+                    <col>2</col>
+                              <row>14</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>S</actual>
+                              <expected>N</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_69', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_69</instructionId>
+                    <col>0</col>
+                              <row>15</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_70', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_70</instructionId>
+                    <col>1</col>
+                              <row>15</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_72', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=N;e=S)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_72</instructionId>
+                    <col>2</col>
+                              <row>15</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>N</actual>
+                              <expected>S</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_74', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_74</instructionId>
+                    <col>0</col>
+                              <row>16</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_75', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_75</instructionId>
+                    <col>1</col>
+                              <row>16</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_77', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=N)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_77</instructionId>
+                    <col>2</col>
+                              <row>16</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>N</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_79', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_79</instructionId>
+                    <col>0</col>
+                              <row>17</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_80', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_80</instructionId>
+                    <col>1</col>
+                              <row>17</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_82', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=S)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_82</instructionId>
+                    <col>2</col>
+                              <row>17</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>S</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_84', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_84</instructionId>
+                    <col>0</col>
+                              <row>18</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_85', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_85</instructionId>
+                    <col>1</col>
+                              <row>18</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_87', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=S)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_87</instructionId>
+                    <col>2</col>
+                              <row>18</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>S</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_89', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_89</instructionId>
+                    <col>0</col>
+                              <row>19</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_90', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_90</instructionId>
+                    <col>1</col>
+                              <row>19</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_92', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=N)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_92</instructionId>
+                    <col>2</col>
+                              <row>19</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>N</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_94', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_94</instructionId>
+                    <col>0</col>
+                              <row>20</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_95', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_95</instructionId>
+                    <col>1</col>
+                              <row>20</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_97', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=S)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_97</instructionId>
+                    <col>2</col>
+                              <row>20</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>S</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_99', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_99</instructionId>
+                    <col>0</col>
+                              <row>21</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_100', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_100</instructionId>
+                    <col>1</col>
+                              <row>21</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_102', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=N)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_102</instructionId>
+                    <col>2</col>
+                              <row>21</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>N</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_104', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_104</instructionId>
+                    <col>0</col>
+                              <row>22</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_105', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_105</instructionId>
+                    <col>1</col>
+                              <row>22</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_107', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=W)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_107</instructionId>
+                    <col>2</col>
+                              <row>22</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>W</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_109', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_109</instructionId>
+                    <col>0</col>
+                              <row>23</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_110', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_110</instructionId>
+                    <col>1</col>
+                              <row>23</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_112', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=null;e=E)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_112</instructionId>
+                    <col>2</col>
+                              <row>23</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>null</actual>
+                              <expected>E</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_114', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_114</instructionId>
+                    <col>0</col>
+                              <row>24</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_115', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_115</instructionId>
+                    <col>1</col>
+                              <row>24</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_117', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=S;e=E)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_117</instructionId>
+                    <col>2</col>
+                              <row>24</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>S</actual>
+                              <expected>E</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_119', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_119</instructionId>
+                    <col>0</col>
+                              <row>25</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_120', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_120</instructionId>
+                    <col>1</col>
+                              <row>25</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_122', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult>fail(a=N;e=W)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>decisionTable_1_122</instructionId>
+                    <col>2</col>
+                              <row>25</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>N</actual>
+                              <expected>W</expected>
+                            </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>250</totalRunTimeInMillis>
+</testResults>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>TestPage</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <date>2018-02-06T13:48:21+00:00</date>
+    <runTimeInMillis>104</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+ &lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/mamaddox/Documents/Eclipse/HuntTheWumpus/src/huntTheWumpus&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;sum&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;a &lt;span class="error"&gt;Could not invoke constructor for a[2]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;b&lt;/td&gt;
+		&lt;td&gt;c?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_0.set1. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_0.set2. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_0.set3. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestPage</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='a', args=[b, c?]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for a[2]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='set1', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_4</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_0.set1. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_5', instruction='call', instanceName='decisionTable_0', methodName='set2', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_5</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_0.set2. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='set3', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_6</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_0.set3. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/Eclipse/FitNesse/fitnesse-standalone.jar:/Users/mamaddox/Documents/Eclipse/HuntTheWumpus/src/huntTheWumpus fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>511</totalRunTimeInMillis>
+</testResults>
+

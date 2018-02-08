@@ -1,0 +1,915 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>TestMap</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>73</exceptions>
+    </counts>
+    <date>2018-02-07T13:59:37+00:00</date>
+    <runTimeInMillis>294</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/mamaddox/Documents/GitHub/wumpus-project&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;gridCave&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;test &lt;span class="error"&gt;Could not invoke constructor for test[0]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Current Cavern&lt;/td&gt;
+		&lt;td&gt;Destination Cavern&lt;/td&gt;
+		&lt;td&gt;getCavernToCavernDirection?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;E &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;W &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;E &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;W &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;S &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;N &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;S &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;N &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;W &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;E &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;7 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;W &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;7 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;E &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;7 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;8 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;N &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;7 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;S &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;N &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;8 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;S &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;S &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;N &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;S &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;N &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;W &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;E &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;8 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;E &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9 &lt;span class="error"&gt;The instance decisionTable_1.setCurrentCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;8 &lt;span class="error"&gt;The instance decisionTable_1.setDestinationCavern. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;W &lt;span class="error"&gt;The instance decisionTable_1.getCavernToCavernDirection. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestMap</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='gridCave'}</instruction>
+        <slimResult>pass(gridCave)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>gridCave</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='test', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for test[0]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_4</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_5</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_7</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_9</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_10</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_12</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_14</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_15', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_15</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_17</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_19</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_20</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_22</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_24</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_25</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_27', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_27</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_29', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_29</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_30', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_30</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_32', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_32</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_34', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_34</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_35', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_35</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_37', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_37</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_39', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_39</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_40', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_40</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_42', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_42</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_44', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_44</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_45', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_45</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_47', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_47</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_49', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_49</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_50', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[5]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_50</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_52', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_52</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_54', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_54</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_55', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_55</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_57', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_57</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_59', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_59</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_60', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_60</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_62', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_62</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_64', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_64</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_65', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_65</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_67', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_67</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_69', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_69</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_70', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_70</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_72', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_72</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_74', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_74</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_75', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_75</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_77', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_77</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_79', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_79</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_80', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_80</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_82', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_82</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_84', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_84</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_85', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_85</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_87', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_87</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_89', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_89</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_90', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_90</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_92', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_92</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_94', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_94</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_95', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_95</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_97', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_97</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_99', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_99</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_100', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_100</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_102', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_102</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_104', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_104</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_105', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_105</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_107', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_107</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_109', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_109</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_110', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_110</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_112', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_112</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_114', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_114</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_115', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_115</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_117', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_117</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_119', instruction='call', instanceName='decisionTable_1', methodName='setCurrentCavern', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_119</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setCurrentCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_120', instruction='call', instanceName='decisionTable_1', methodName='setDestinationCavern', args=[8]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_120</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.setDestinationCavern. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_122', instruction='call', instanceName='decisionTable_1', methodName='getCavernToCavernDirection', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_122</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance decisionTable_1.getCavernToCavernDirection. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/Eclipse/FitNesse/fitnesse-standalone.jar:/Users/mamaddox/Documents/GitHub/wumpus-project fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>880</totalRunTimeInMillis>
+</testResults>
+

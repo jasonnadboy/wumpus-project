@@ -1,0 +1,11 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path /Users/mamaddox/Documents/GitHub/wumpus-project/bin
+
+|import|
+|test|
+
+|script|total number of caverns|
+|ensure|total number of caverns is|25|

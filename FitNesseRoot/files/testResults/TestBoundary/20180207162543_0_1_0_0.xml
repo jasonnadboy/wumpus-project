@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>TestBoundary</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>12</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-02-07T16:25:43+00:00</date>
+    <runTimeInMillis>173</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/mamaddox/Documents/GitHub/wumpus-project/bin&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="6"&gt;&lt;span class="pass"&gt;Test Boundary&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;es&lt;/span&gt;t] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Nor&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt;h from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[test] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go W&lt;/span&gt;&lt;span class="fail"&gt;est&lt;/span&gt;&lt;span class="diff"&gt; from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;es&lt;/span&gt;t] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Nor&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt;h from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;es&lt;/span&gt;t] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Nor&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt;h from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;e&lt;/span&gt;st] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Ea&lt;/span&gt;&lt;span class="fail"&gt;st&lt;/span&gt;&lt;span class="diff"&gt; from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;e&lt;/span&gt;st] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Ea&lt;/span&gt;&lt;span class="fail"&gt;st&lt;/span&gt;&lt;span class="diff"&gt; from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;e&lt;/span&gt;st] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Ea&lt;/span&gt;&lt;span class="fail"&gt;st&lt;/span&gt;&lt;span class="diff"&gt; from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;es&lt;/span&gt;t] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Sou&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt;h from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;es&lt;/span&gt;t] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Sou&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt;h from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[t&lt;span class="diff"&gt;es&lt;/span&gt;t] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go Sou&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt;h from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[test] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go W&lt;/span&gt;&lt;span class="fail"&gt;est&lt;/span&gt;&lt;span class="diff"&gt; from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;[test] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;You can'&lt;/span&gt;&lt;span class="fail"&gt;t&lt;/span&gt;&lt;span class="diff"&gt; go W&lt;/span&gt;&lt;span class="fail"&gt;est&lt;/span&gt;&lt;span class="diff"&gt; from here&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestBoundary</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='test'}</instruction>
+        <slimResult>pass(test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='TestBoundary', args=[]}</instruction>
+        <slimResult>pass(Test Boundary)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Test Boundary</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[1, North]}</instruction>
+        <slimResult>fail(a=test;e=You can't go North from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_1</instructionId>
+                    <col>6</col>
+                              <row>1</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go North from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[1, West]}</instruction>
+        <slimResult>fail(a=test;e=You can't go West from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_2</instructionId>
+                    <col>6</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go West from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[2, North]}</instruction>
+        <slimResult>fail(a=test;e=You can't go North from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_3</instructionId>
+                    <col>6</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go North from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[3, North]}</instruction>
+        <slimResult>fail(a=test;e=You can't go North from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_4</instructionId>
+                    <col>6</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go North from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[3, East]}</instruction>
+        <slimResult>fail(a=test;e=You can't go East from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_5</instructionId>
+                    <col>6</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go East from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_6', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[4, East]}</instruction>
+        <slimResult>fail(a=test;e=You can't go East from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_6</instructionId>
+                    <col>6</col>
+                              <row>6</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go East from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_7', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[5, East]}</instruction>
+        <slimResult>fail(a=test;e=You can't go East from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_7</instructionId>
+                    <col>6</col>
+                              <row>7</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go East from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_8', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[5, South]}</instruction>
+        <slimResult>fail(a=test;e=You can't go South from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_8</instructionId>
+                    <col>6</col>
+                              <row>8</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go South from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_9', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[6, South]}</instruction>
+        <slimResult>fail(a=test;e=You can't go South from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_9</instructionId>
+                    <col>6</col>
+                              <row>9</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go South from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_10', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[7, South]}</instruction>
+        <slimResult>fail(a=test;e=You can't go South from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_10</instructionId>
+                    <col>6</col>
+                              <row>10</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go South from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_11', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[7, West]}</instruction>
+        <slimResult>fail(a=test;e=You can't go West from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_11</instructionId>
+                    <col>6</col>
+                              <row>11</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go West from here</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_12', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[8, West]}</instruction>
+        <slimResult>fail(a=test;e=You can't go West from here)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_12</instructionId>
+                    <col>6</col>
+                              <row>12</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>test</actual>
+                              <expected>You can't go West from here</expected>
+                            </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/Eclipse/FitNesse/fitnesse-standalone.jar:/Users/mamaddox/Documents/GitHub/wumpus-project/bin fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>636</totalRunTimeInMillis>
+</testResults>
+

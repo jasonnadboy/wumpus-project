@@ -1,0 +1,28 @@
+!define TEST_SYSTEM {slim}
+!path /Users/mamaddox/Documents/GitHub/wumpus-project/bin
+
+|import|
+|test|
+
+|script|Test Boundary|
+|check|cavern|1|direction|North|generatesErrorMessage|You can't go North from here|
+|check|cavern|1|direction|West|generatesErrorMessage|You can't go West from here|
+|check|cavern|2|direction|North|generatesErrorMessage|You can't go North from here|
+|check|cavern|3|direction|North|generatesErrorMessage|You can't go North from here|
+|check|cavern|4|direction|North|generatesErrorMessage|You can't go North from here|
+|check|cavern|5|direction|East|generatesErrorMessage|You can't go East from here|
+|check|cavern|5|direction|North|generatesErrorMessage|You can't go North from here|
+|check|cavern|6|direction|East|generatesErrorMessage|You can't go East from here|
+|check|cavern|7|direction|East|generatesErrorMessage|You can't go East from here|
+|check|cavern|8|direction|East|generatesErrorMessage|You can't go East from here|
+|check|cavern|9|direction|East|generatesErrorMessage|You can't go East from here|
+|check|cavern|9|direction|South|generatesErrorMessage|You can't go South from here|
+|check|cavern|10|direction|South|generatesErrorMessage|You can't go South from here|
+|check|cavern|11|direction|South|generatesErrorMessage|You can't go South from here|
+|check|cavern|12|direction|South|generatesErrorMessage|You can't go South from here|
+|check|cavern|13|direction|South|generatesErrorMessage|You can't go South from here|
+|check|cavern|13|direction|West|generatesErrorMessage|You can't go West from here|
+|check|cavern|14|direction|West|generatesErrorMessage|You can't go West from here|
+|check|cavern|15|direction|West|generatesErrorMessage|You can't go West from here|
+|check|cavern|16|direction|West|generatesErrorMessage|You can't go West from here|
+
