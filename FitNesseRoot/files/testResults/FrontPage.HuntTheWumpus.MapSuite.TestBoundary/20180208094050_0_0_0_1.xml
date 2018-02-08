@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.HuntTheWumpus.MapSuite.TestBoundary</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>21</exceptions>
+    </counts>
+    <date>2018-02-08T09:40:50+00:00</date>
+    <runTimeInMillis>311</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /wumpus-project/bin&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="6"&gt;Test Boundary &lt;span class="error"&gt;Could not invoke constructor for TestBoundary[0]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go North from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go West from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go North from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go North from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go North from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go East from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;North&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go North from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go East from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go East from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go East from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;East&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go East from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go South from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go South from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;11&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go South from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go South from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;13&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;South&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go South from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;13&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go West from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;14&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go West from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;15&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go West from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;cavern&lt;/td&gt;
+		&lt;td&gt;16&lt;/td&gt;
+		&lt;td&gt;direction&lt;/td&gt;
+		&lt;td&gt;West&lt;/td&gt;
+		&lt;td&gt;generatesErrorMessage&lt;/td&gt;
+		&lt;td&gt;You can't go West from here &lt;span class="error"&gt;The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;</content>
+    <relativePageName>TestBoundary</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='test'}</instruction>
+        <slimResult>pass(test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='TestBoundary', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for TestBoundary[0]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[1, North]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_1</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[1, West]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_2</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[2, North]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_3</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[3, North]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_4</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[4, North]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_5</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_6', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[5, East]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_6</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_7', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[5, North]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_7</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_8', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[6, East]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_8</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_9', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[7, East]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_9</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_10', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[8, East]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_10</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_11', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[9, East]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_11</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_12', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[9, South]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_12</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_13', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[10, South]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_13</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_14', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[11, South]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_14</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_15', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[12, South]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_15</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_16', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[13, South]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_16</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_17', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[13, West]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_17</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_18', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[14, West]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_18</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_19', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[15, West]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_19</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_20', instruction='call', instanceName='scriptTableActor', methodName='cavernDirectionGeneratesErrorMessage', args=[16, West]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_20</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.cavernDirectionGeneratesErrorMessage. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/GitHub/wumpus-project/fitnesse-standalone.jar:/wumpus-project/bin fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>944</totalRunTimeInMillis>
+</testResults>
+
