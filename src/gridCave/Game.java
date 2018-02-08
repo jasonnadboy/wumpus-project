@@ -29,6 +29,14 @@ public class Game {
 		return theCavern;
 	}
 	
+	public Cavern getCavernContainingWumpus() {
+		int x = theWumpus.getLocationX();
+		int y = theWumpus.getLocationY();
+		Cavern[][] caverns = theCave.getCave();
+		Cavern theCavern = caverns[x][y];
+		return theCavern;
+	}
+	
 	public void characterEntersCavernContainingBats() {
 		Random rand = new Random();
 		theCharacter.hardSetLocation(rand.nextInt(5), rand.nextInt(5));
