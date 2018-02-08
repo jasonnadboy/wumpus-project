@@ -1,1 +1,10 @@
-!contents -R2 -g -p -f -h
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+!|script|get Starting Point|
+|check|startingCavernAlways|25|
+|check|startingCavernContainsBats|false|
+|check|startingCavernContainsPits|false|
