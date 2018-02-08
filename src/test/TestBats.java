@@ -9,7 +9,7 @@ public class TestBats {
 	
 	public TestBats() {
 		for (int i = 0; i < 10000; i++) {
-			theGame.turn();
+			theGame.turn("NORTH");
 			int num = theGame.getCavernContainingCharacter().getCavernNumber();
 			count[num-1]++;
 			theGame.resetCharacterToStartingPoint();
