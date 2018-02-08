@@ -116,4 +116,8 @@ public class Cave {
 	public ArrayList<Cavern> getCavernsWithBats() {
 		return cavernsWithBats;
 	}
+	
+	public ArrayList<Cavern> getCavernWithPits() {
+		return cavernsWithPits;
+	}
 }
