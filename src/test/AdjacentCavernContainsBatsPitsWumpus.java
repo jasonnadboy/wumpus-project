@@ -20,8 +20,7 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 	
 	public String ifAdjacentCavernContainsBatsHearChirping() {
 		northernCavern.putBats();
-		if(northernCavern.hasBats() || southernCavern.hasBats() || easternCavern.hasBats() 
-				|| westernCavern.hasBats()) {
+		if(cave.batNearby(testCavern.getCavernNumber())) {
 			return "I HEAR CHIRPS";
 		}
 		return "";
@@ -32,10 +31,6 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 		if (cave.pitNearby(testCavern.getCavernNumber())) {
 			return "I HEAR WIND";
 		}
-		//if(northernCavern.hasPits() || southernCavern.hasPits() || easternCavern.hasPits() 
-			//	|| westernCavern.hasPits()) {
-			//return "I HEAR WIND";
-		//}
 		return "";
 	}
 	
@@ -46,8 +41,7 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 		String wumpusString = "";
 		String batString = "";
 		
-		if(northernCavern.hasBats() || southernCavern.hasBats() || easternCavern.hasBats() 
-				|| westernCavern.hasBats()) {
+		if(cave.batNearby(testCavern.getCavernNumber())) {
 			batString = "I HEAR CHIRPS";
 		}
 		Cavern wumpusCavern = caverns[wumpus.getLocationX()][wumpus.getLocationY()];
@@ -67,12 +61,10 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 		String pitString = "";
 		String batString = "";
 		
-		if(northernCavern.hasBats() || southernCavern.hasBats() || easternCavern.hasBats() 
-				|| westernCavern.hasBats()) {
+		if(cave.batNearby(testCavern.getCavernNumber())) {
 			batString = "I HEAR CHIRPS";
 		}
-		if(northernCavern.hasPits() || southernCavern.hasPits() || easternCavern.hasPits() 
-				|| westernCavern.hasPits()) {
+		if (cave.pitNearby(testCavern.getCavernNumber())) {
 			pitString = "I HEAR WIND";
 		}
 		return batString + " AND " + pitString;
@@ -85,8 +77,7 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 		String wumpusString = "";
 		String pitString = "";
 		
-		if(northernCavern.hasPits() || southernCavern.hasPits() || easternCavern.hasPits() 
-				|| westernCavern.hasPits()) {
+		if (cave.pitNearby(testCavern.getCavernNumber())) {
 			pitString = "I HEAR WIND";
 		}
 		Cavern wumpusCavern = caverns[wumpus.getLocationX()][wumpus.getLocationY()];
@@ -108,12 +99,10 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 		String batString = "";
 		String pitString = "";
 		
-		if(northernCavern.hasPits() || southernCavern.hasPits() || easternCavern.hasPits() 
-				|| westernCavern.hasPits()) {
+		if (cave.pitNearby(testCavern.getCavernNumber())) {
 			pitString = "I HEAR WIND";
 		}
-		if(northernCavern.hasBats() || southernCavern.hasBats() || easternCavern.hasBats() 
-				|| westernCavern.hasBats()) {
+		if(cave.batNearby(testCavern.getCavernNumber())) {
 			batString = "I HEAR CHIRPS";
 		}
 		Cavern wumpusCavern = caverns[wumpus.getLocationX()][wumpus.getLocationY()];
@@ -139,6 +128,16 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 	}
 	
 	public String ifAdjacentCavernContainsNothingSeeNothing() {
-		return "";
+		String wumpusString = "";
+		String batString = "";
+		String pitString = "";
+		
+		if(cave.batNearby(testCavern.getCavernNumber())) {
+			batString = "I HEAR CHIRPS";
+		}
+		if (cave.pitNearby(testCavern.getCavernNumber())) {
+			pitString = "I HEAR WIND";
+		}
+		return batString + pitString + wumpusString;
 	}
 }

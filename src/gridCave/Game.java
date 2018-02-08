@@ -110,11 +110,11 @@ public class Game {
 		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
 			outputMessage+= "You feel wind. ";
 		}
-/**		
-		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
+
+		if (theCave.batNearby(this.getCavernContainingCharacter().getCavernNumber())) {
 			outputMessage+= "You hear chirping. ";
 		}
-		
+/**	
 		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
 			outputMessage+= "You smell coffee. ";
 		}
@@ -140,7 +140,11 @@ public class Game {
 		String outputMessage = "";
 		
 		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
-			outputMessage+= "You hear wind. ";
+			outputMessage+= "You feel wind. ";
+		}
+		
+		if (theCave.batNearby(this.getCavernContainingCharacter().getCavernNumber())) {
+			outputMessage+= "You hear chirping. ";
 		}
 		
 		return outputMessage;

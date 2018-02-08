@@ -30,7 +30,8 @@ public class Cave {
 		setPits(2);
 		
 		System.out.println("Pits " + cavernsWithPits.get(0).getCavernNumber() + " " + cavernsWithPits.get(1).getCavernNumber());
-	
+		System.out.println("bats " + cavernsWithBats.get(0).getCavernNumber() + " " + cavernsWithBats.get(1).getCavernNumber());
+
 	}
 	
 	private void setBats(int numberOfBats) {
@@ -155,5 +156,36 @@ public class Cave {
 		return false;
 	}
 	
-	
+	public boolean batNearby(int cavernNumber) {
+		int x = getCavernX(cavernNumber);
+		int y = getCavernY(cavernNumber);
+		
+		Cavern northernCavern = null;
+		Cavern southernCavern = null;
+		Cavern easternCavern = null;
+		Cavern westernCavern = null;
+		
+		if(!boundaryExists(cavernNumber, "NORTH")) {
+			northernCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "SOUTH")) {
+			southernCavern = caverns[x][y+1];
+		}
+		if(!boundaryExists(cavernNumber, "EAST")) {
+			easternCavern = caverns[x+1][y];
+		}
+		if(!boundaryExists(cavernNumber, "WEST")) {
+			westernCavern = caverns[x-1][y];
+		}
+
+		if((northernCavern!= null && northernCavern.hasBats()) 
+				|| (southernCavern!= null && southernCavern.hasBats())  
+				|| (easternCavern!= null && easternCavern.hasBats()) 
+				|| (westernCavern!= null && westernCavern.hasBats()) ) {
+			return true;
+		}
+		
+		return false;
+	}
+
 }
