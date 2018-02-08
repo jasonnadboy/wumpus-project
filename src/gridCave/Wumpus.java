@@ -35,7 +35,7 @@ public class Wumpus {
 			tempX = locationX;
 			tempY = locationY;
 			Random rand = new Random();
-			int randomDirectionNumber = rand.nextInt(5);
+			int randomDirectionNumber = rand.nextInt(4);
 			switch(randomDirectionNumber) {
 				case 0: tempY--;
 					break;
@@ -44,6 +44,7 @@ public class Wumpus {
 				case 2: tempX--;
 					break;
 				case 3: tempX++;
+					System.out.println("hi");
 					break;
 				default:
 					break;
