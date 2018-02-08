@@ -10,9 +10,15 @@ public class Game {
 	public Wumpus theWumpus;
 	
 	public Game() {
+		Random rand = new Random();
+		
 		theCave = new Cave();
 		theCharacter = new Character(2,2);
-	
+		
+		do {
+			theWumpus = new Wumpus(rand.nextInt(5),rand.nextInt(5));
+		} while (theWumpus.getLocationX() == 2 && theWumpus.getLocationY() == 2);
+		
 	}
 	
 	public Cavern getCavernContainingCharacter() {

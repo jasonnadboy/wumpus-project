@@ -7,6 +7,11 @@ public class Wumpus {
 	private int locationX;
 	private int locationY;
 	
+	public Wumpus(int X, int Y) {
+		locationX = X;
+		locationY = Y;
+	}
+	
 	public int getLocationX() {
 		return locationX;
 	}
