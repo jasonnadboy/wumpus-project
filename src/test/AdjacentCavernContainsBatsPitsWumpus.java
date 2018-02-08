@@ -29,10 +29,13 @@ public class AdjacentCavernContainsBatsPitsWumpus {
 	
 	public String ifAdjacentCavernContainsPitsHearWind() {
 		northernCavern.putPit();
-		if(northernCavern.hasPits() || southernCavern.hasPits() || easternCavern.hasPits() 
-				|| westernCavern.hasPits()) {
+		if (cave.pitNearby(testCavern.getCavernNumber())) {
 			return "I HEAR WIND";
 		}
+		//if(northernCavern.hasPits() || southernCavern.hasPits() || easternCavern.hasPits() 
+			//	|| westernCavern.hasPits()) {
+			//return "I HEAR WIND";
+		//}
 		return "";
 	}
 	

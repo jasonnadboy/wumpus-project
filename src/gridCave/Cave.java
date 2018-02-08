@@ -120,4 +120,36 @@ public class Cave {
 	public ArrayList<Cavern> getCavernWithPits() {
 		return cavernsWithPits;
 	}
+	
+	public boolean pitNearby(int cavernNumber) {
+		int x = getCavernX(cavernNumber);
+		int y = getCavernY(cavernNumber);
+		
+		Cavern northernCavern = null;
+		Cavern southernCavern = null;
+		Cavern easternCavern = null;
+		Cavern westernCavern = null;
+		
+		if(!boundaryExists(cavernNumber, "NORTH")) {
+			northernCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "SOUTH")) {
+			southernCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "EAST")) {
+			easternCavern = caverns[x][y-1];
+		}
+		if(!boundaryExists(cavernNumber, "WEST")) {
+			westernCavern = caverns[x][y-1];
+		}
+
+		if((northernCavern!= null && northernCavern.hasPits()) 
+				|| (southernCavern!= null && southernCavern.hasPits())  
+				|| (easternCavern!= null && easternCavern.hasPits()) 
+				|| (westernCavern!= null && westernCavern.hasPits()) ) {
+			return true;
+		}
+		
+		return false;
+	}
 }
