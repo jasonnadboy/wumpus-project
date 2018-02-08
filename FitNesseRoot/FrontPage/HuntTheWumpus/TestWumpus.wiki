@@ -1,3 +1,7 @@
+---
+Suite
+Test: no
+---
 >TestSmellWumpus
 >TestWumpusDead
 >TestWumpusRests
