@@ -7,9 +7,7 @@ Test
 |import|
 |test|
 
-|script|Bats And Pits And Wumpus Cavern Is Random|
-|Test Wumpus Random Movement|
-|ensure|even distribution after 10000 games|
+|script|Bats And Pits Cavern Is Random|
 |Test Pits Random Placement|
 |ensure|even distribution after 10000 games|
 |Test Bats Random Placement|
