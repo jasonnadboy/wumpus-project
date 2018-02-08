@@ -1,5 +1,4 @@
 >MapSuite
 
->TestStartingPoint
 >TestArrowSuite
 >TestCavernSuite
