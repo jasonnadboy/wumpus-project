@@ -92,6 +92,7 @@ public class Game {
 			if (theWumpus.getLocationY() == theCharacter.getY()) {
 				this.gameOver();
 				outputMessage+= "The Wumpus got you. Game over.";
+				return outputMessage;
 			}
 		}
 
@@ -103,10 +104,21 @@ public class Game {
 		if (this.getCavernContainingCharacter().hasPits()) {
 			this.gameOver();
 			outputMessage+= "You fell in a pit. Game over.";
+			return outputMessage;
 		}
 		
+		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
+			outputMessage+= "You feel wind. ";
+		}
+/**		
+		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
+			outputMessage+= "You hear chirping. ";
+		}
 		
-		
+		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
+			outputMessage+= "You smell coffee. ";
+		}
+**/		
 		return outputMessage;
 	}
 	
@@ -121,6 +133,18 @@ public class Game {
 	public boolean isGameOver() {
 		// TODO Auto-generated method stub
 		return isGameOver;
+	}
+
+	public String initialCheck() {
+		
+		String outputMessage = "";
+		
+		if (theCave.pitNearby(this.getCavernContainingCharacter().getCavernNumber())) {
+			outputMessage+= "You hear wind. ";
+		}
+		
+		return outputMessage;
+		
 	}
 	
 }
