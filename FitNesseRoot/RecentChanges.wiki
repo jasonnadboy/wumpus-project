@@ -1,8 +1,10 @@
-|FrontPage.HuntTheWumpus.TestCavernSuite||12:09:19 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestWumpus||15:45:56 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus||15:44:56 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestCavernSuite||15:44:26 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsAndWumpusCavernIsRandom||15:44:05 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestCavernSuite.AdjacentCavernContainsEnemy||15:01:07 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.CavernContainsEnemy||12:03:04 Thu, Feb 08, 2018|
-|FrontPage.HuntTheWumpus.TestCavernSuite.AdjacentCavernContainsEnemy||11:49:25 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.TotalNumberOfCaverns||09:58:08 Thu, Feb 08, 2018|
-|FrontPage.HuntTheWumpus||09:48:12 Thu, Feb 08, 2018|
 <<<<<<< HEAD
 |FrontPage.HuntTheWumpus.MapSuite.TestMap||09:44:53 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.MapSuite.TestBoundary||09:42:23 Thu, Feb 08, 2018|

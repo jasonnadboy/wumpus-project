@@ -1,0 +1,16 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|script|Bats And Pits And Wumpus Cavern Is Random|
+|Test Wumpus Random Movement|
+|ensure|even distribution after 10000 games|
+|Test Pits Random Placement|
+|ensure|even distribution after 10000 games|
+|Test Bats Random Placement|
+|ensure|even distribution after 10000 games|

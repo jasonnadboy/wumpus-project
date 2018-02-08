@@ -1,17 +1,4 @@
 >TotalNumberOfCaverns
 >CavernContainsEnemy
 >AdjacentCavernContainsEnemy
-
-Use a loop to confirm location of Pit/Bat/Wumpus is random (i.e not static)
-
-Test that a cavern can be normal (no message)
-
-Test that cavern with a pit adjacent you will hear wind
-Test that cavern with bats adjacent you will hear chirping
-Test that cavern with Wumpus adjacent you will smell the wumpus
-
-Test that cavern with Pit and Wumpus adjacent you will hear wind AND smell the wumpus 
-Test that cavern with Wumpus and Bats adjacent you will hear chirping AND smell the wumpus 
-Test that cavern with Bats and Pit adjacent you will hear chirping AND hear wind
-
-Test that cavern with Wumpus, Bats and Pit adjacent you will smell the wumpus, hear chirping AND hear wind
+>BatsAndPitsAndWumpusCavernIsRandom

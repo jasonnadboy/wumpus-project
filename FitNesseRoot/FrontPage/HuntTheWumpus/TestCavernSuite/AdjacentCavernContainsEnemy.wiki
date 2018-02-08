@@ -8,4 +8,11 @@ Test
 |test|
 
 |script|Adjacent Cavern Contains Bats Pits Wumpus|
-|check|cavern adjacent to|1|contains enemy print message|I HEAR CHIRPS I HEAR WIND I SMELL WUMPUS|
+|check|if adjacent cavern contains bats hear chirping|I HEAR CHIRPS|
+|check|if adjacent cavern contains pits hear wind|I HEAR WIND|
+|check|if adjacent cavern contains wumpus smell scent|I SMELL A WUMPUS|
+|check|if adjacent cavern contains bats and wumpus smell scent and hear chirps|I HEAR CHIRPS AND I SMELL A WUMPUS|
+|check|if adjacent cavern contains pits and wumpus smell scent and hear wind|I SMELL A WUMPUS AND I HEAR WIND|
+|check|if adjacent cavern contains bats and pits hear chirps and hear wind|I HEAR CHIRPS AND I HEAR WIND|
+|check|if adjacent cavern contains bats and pits and wumpus smell scent and hear chirps and hear wind|I HEAR CHIRPS AND I HEAR WIND AND I SMELL A WUMPUS|
+|check|if adjacent cavern contains nothing see nothing||

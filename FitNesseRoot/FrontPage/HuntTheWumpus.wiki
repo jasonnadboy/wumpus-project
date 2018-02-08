@@ -1,4 +1,7 @@
+---
+Suite
+---
 >MapSuite
-
 >TestArrowSuite
 >TestCavernSuite
+>TestWumpus

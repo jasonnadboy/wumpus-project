@@ -1,0 +1,4 @@
+>TestSmellWumpus
+>TestWumpusDead
+>TestWumpusRests
+>TestWumpusStartingPoint
