@@ -1,0 +1,15 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|script|Test Cavern Can Contain Enemy|
+|ensure|cavern can contain bats|
+|ensure|cavern can contain pits|
+|ensure|cavern can contain wumpus|
+|ensure|cavern can contain bats and wumpus|
+|ensure|cavern can contain pits and wumpus|

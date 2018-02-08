@@ -2,7 +2,7 @@
 Test
 ---
 !define TEST_SYSTEM {slim}
-!path /Users/mamaddox/Documents/GitHub/wumpus-project/bin
+!path ../wumpus-project/bin
 
 |import|
 |test|

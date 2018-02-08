@@ -1,0 +1,11 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|script|Adjacent Cavern Contains Bats Pits Wumpus|
+|check|cavern adjacent to|1|contains enemy print message|I HEAR CHIRPS I HEAR WIND I SMELL WUMPUS|

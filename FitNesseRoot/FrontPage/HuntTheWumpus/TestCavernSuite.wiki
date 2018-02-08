@@ -1,14 +1,8 @@
-!contents -R2 -g -p -f -h
 >TotalNumberOfCaverns
+>CavernContainsEnemy
+>AdjacentCavernContainsEnemy
 
 Test that a cavern can be normal (no message)
-
-Test that one cavern can contain a Wumpus
-Test that one cavern can contain a Pit
-Test that one cavern can contain Bats
-
-Test that one cavern can contain Wumpus and a Pit
-Test that one cavern can contain Wumpus and Bats
 
 Use a loop to confirm location of Pit/Bat/Wumpus is random (i.e not static)
 
