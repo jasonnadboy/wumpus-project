@@ -18,6 +18,10 @@ public class TestWumpusRandomMovement {
 		
 	}
 	
+	public int isEndingPoint(int i) {
+		return count[i-1];
+	}
+	
 	public boolean eventDistributionOfWumpusLocationAfter1000Moves() {
 		for (int c : count) {
 			//System.out.println(c);

@@ -1,0 +1,32 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+!|script|test Wumpus Random Movement|
+|check|isEndingPoint|1|>225|
+|check|isEndingPoint|2|>225|
+|check|isEndingPoint|3|>225|
+|check|isEndingPoint|4|>225|
+|check|isEndingPoint|5|>225|
+|check|isEndingPoint|6|>225|
+|check|isEndingPoint|7|>225|
+|check|isEndingPoint|8|>225|
+|check|isEndingPoint|9|>225|
+|check|isEndingPoint|10|>225|
+|check|isEndingPoint|11|>225|
+|check|isEndingPoint|12|>225|
+|check|isEndingPoint|13|>225|
+|check|isEndingPoint|14|>225|
+|check|isEndingPoint|15|>225|
+|check|isEndingPoint|16|>225|
+|check|isEndingPoint|17|>225|
+|check|isEndingPoint|18|>225|
+|check|isEndingPoint|19|>225|
+|check|isEndingPoint|20|>225|
+|check|isEndingPoint|21|>225|
+|check|isEndingPoint|22|>225|
+|check|isEndingPoint|23|>225|
+|check|isEndingPoint|24|>225|
+|check|isEndingPoint|25|>225|

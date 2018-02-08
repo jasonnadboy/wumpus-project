@@ -1,0 +1,32 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+!|script|test Wumpus Random Starting Location|
+|check|isStartingPoint|1|>325|
+|check|isStartingPoint|2|>325|
+|check|isStartingPoint|3|>325|
+|check|isStartingPoint|4|>325|
+|check|isStartingPoint|5|>325|
+|check|isStartingPoint|6|>325|
+|check|isStartingPoint|7|>325|
+|check|isStartingPoint|8|>325|
+|check|isStartingPoint|9|>325|
+|check|isStartingPoint|10|>325|
+|check|isStartingPoint|11|>325|
+|check|isStartingPoint|12|>325|
+|check|isStartingPoint|13|>325|
+|check|isStartingPoint|14|>325|
+|check|isStartingPoint|15|>325|
+|check|isStartingPoint|16|>325|
+|check|isStartingPoint|17|>325|
+|check|isStartingPoint|18|>325|
+|check|isStartingPoint|19|>325|
+|check|isStartingPoint|20|>325|
+|check|isStartingPoint|21|>325|
+|check|isStartingPoint|22|>325|
+|check|isStartingPoint|23|>325|
+|check|isStartingPoint|24|>325|
+|check|isStartingPoint|25|0|

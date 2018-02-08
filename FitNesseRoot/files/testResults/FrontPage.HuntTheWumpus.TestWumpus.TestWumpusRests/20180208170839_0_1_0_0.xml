@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusRests</rootPath>
+    <result>
+    <counts>
+      <right>12</right>
+      <wrong>12</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2018-02-08T17:08:39+00:00</date>
+    <runTimeInMillis>1143</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../wumpus-project/bin&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;test Wumpus Random Movement&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;808&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;497&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;711&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;509&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;803&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;11&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;508&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;13&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;14&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;732&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;15&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;16&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;967&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;17&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;18&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;994&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;19&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;20&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;958&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;21&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;22&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;980&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;23&lt;/td&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;0&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;24&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;1003&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;check&lt;/td&gt;
+		&lt;td class="error"&gt;isEndingPoint&lt;/td&gt;
+		&lt;td class="error"&gt;25&lt;/td&gt;
+		&lt;td class="error"&gt;&amp;gt;225&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.ArrayIndexOutOfBoundsException: 25
+	at test.TestWumpusRandomMovement.isEndingPoint(TestWumpusRandomMovement.java:22) [file:/Users/Jason/Documents/workspace/wumpus-project/wumpus-project/bin/]
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source) [n/a]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:497) [rt.jar:1.8.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20180127]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20180127]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestWumpusRests</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='test'}</instruction>
+        <slimResult>pass(test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='TestWumpusRandomMovement', args=[]}</instruction>
+        <slimResult>pass(test Wumpus Random Movement)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>test Wumpus Random Movement</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[1]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_1</instructionId>
+                    <col>3</col>
+                              <row>1</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[2]}</instruction>
+        <slimResult>pass(808&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_2</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>808&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[3]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_3</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[4]}</instruction>
+        <slimResult>pass(497&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_4</instructionId>
+                    <col>3</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>497&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[5]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_5</instructionId>
+                    <col>3</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_6', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[6]}</instruction>
+        <slimResult>pass(711&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_6</instructionId>
+                    <col>3</col>
+                              <row>6</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>711&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_7', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[7]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_7</instructionId>
+                    <col>3</col>
+                              <row>7</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_8', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[8]}</instruction>
+        <slimResult>pass(509&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_8</instructionId>
+                    <col>3</col>
+                              <row>8</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>509&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_9', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[9]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_9</instructionId>
+                    <col>3</col>
+                              <row>9</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_10', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[10]}</instruction>
+        <slimResult>pass(803&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_10</instructionId>
+                    <col>3</col>
+                              <row>10</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>803&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_11', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[11]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_11</instructionId>
+                    <col>3</col>
+                              <row>11</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_12', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[12]}</instruction>
+        <slimResult>pass(508&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_12</instructionId>
+                    <col>3</col>
+                              <row>12</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>508&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_13', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[13]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_13</instructionId>
+                    <col>3</col>
+                              <row>13</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_14', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[14]}</instruction>
+        <slimResult>pass(732&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_14</instructionId>
+                    <col>3</col>
+                              <row>14</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>732&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_15', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[15]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_15</instructionId>
+                    <col>3</col>
+                              <row>15</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_16', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[16]}</instruction>
+        <slimResult>pass(967&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_16</instructionId>
+                    <col>3</col>
+                              <row>16</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>967&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_17', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[17]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_17</instructionId>
+                    <col>3</col>
+                              <row>17</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_18', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[18]}</instruction>
+        <slimResult>pass(994&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_18</instructionId>
+                    <col>3</col>
+                              <row>18</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>994&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_19', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[19]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_19</instructionId>
+                    <col>3</col>
+                              <row>19</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_20', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[20]}</instruction>
+        <slimResult>pass(958&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_20</instructionId>
+                    <col>3</col>
+                              <row>20</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>958&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_21', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[21]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_21</instructionId>
+                    <col>3</col>
+                              <row>21</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_22', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[22]}</instruction>
+        <slimResult>pass(980&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_22</instructionId>
+                    <col>3</col>
+                              <row>22</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>980&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_23', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[23]}</instruction>
+        <slimResult>fail(0&gt;225)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_1_23</instructionId>
+                    <col>3</col>
+                              <row>23</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>0&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_24', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[24]}</instruction>
+        <slimResult>pass(1003&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_24</instructionId>
+                    <col>3</col>
+                              <row>24</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>1003&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_25', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[25]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_1_25</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -cp /Users/Jason/Documents/workspace/wumpus-project/wumpus-project/fitnesse-standalone.jar:../wumpus-project/bin fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1413</totalRunTimeInMillis>
+</testResults>
+

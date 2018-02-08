@@ -15,6 +15,10 @@ public class TestWumpusRandomStartingLocation {
 		}
 	}
 	
+	public int isStartingPoint(int i) {
+		return count[i-1];
+	}
+	
 	public boolean wumpusStartingPointIsRandomlyDistributed() {
 		if (count[24] != 0) {
 			return false;

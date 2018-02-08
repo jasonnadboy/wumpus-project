@@ -1,3 +1,5 @@
+|FrontPage.HuntTheWumpus.TestWumpus.TestWumpusStartingPoint||17:14:05 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.TestWumpus.TestWumpusRests||17:09:08 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestWumpus||15:45:56 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus||15:44:56 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite||15:44:26 Thu, Feb 08, 2018|
