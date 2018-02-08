@@ -1,12 +1,12 @@
+|FrontPage.HuntTheWumpus.MapSuite.TestStartingPoint||09:45:28 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.MapSuite.TestMap||09:44:02 Thu, Feb 08, 2018|
+|FrontPage.HuntTheWumpus.MapSuite.TestBoundary||09:43:31 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite||09:29:35 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.TotalNumberOfCaverns||09:27:54 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestArrowSuite||17:40:46 Wed, Feb 07, 2018|
 |FrontPage.HuntTheWumpus.TestStartingPoint||17:40:08 Wed, Feb 07, 2018|
 |FrontPage.HuntTheWumpus||17:39:58 Wed, Feb 07, 2018|
 |FrontPage.TestStartingPoint||17:39:39 Wed, Feb 07, 2018|
-|FrontPage.HuntTheWumpus.MapSuite.TestStartingPoint||17:39:24 Wed, Feb 07, 2018|
-|FrontPage.HuntTheWumpus.MapSuite.TestBoundary||17:38:54 Wed, Feb 07, 2018|
-|FrontPage.HuntTheWumpus.MapSuite.TestMap||17:38:36 Wed, Feb 07, 2018|
 |FrontPage.HuntTheWumpus.MapSuite||17:38:17 Wed, Feb 07, 2018|
 |FrontPage.HuntTheWumpus.TestAddition||17:36:47 Wed, Feb 07, 2018|
 |FrontPage||17:36:14 Wed, Feb 07, 2018|
