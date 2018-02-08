@@ -44,7 +44,6 @@ public class Wumpus {
 				case 2: tempX--;
 					break;
 				case 3: tempX++;
-					System.out.println("hi");
 					break;
 				default:
 					break;

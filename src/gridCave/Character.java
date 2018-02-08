@@ -28,9 +28,11 @@ public class Character {
 				break;
 			case "SOUTH": y++;
 				break;
-			case "EAST": x--;
+			case "EAST": x++;
 				break;
-			case "WEST": x++;
+			case "WEST": x--;
+				break;
+			case "REST":
 				break;
 			default:
 				break;

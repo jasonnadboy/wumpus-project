@@ -1,5 +1,6 @@
 package gridCave;
 
+import java.util.HashSet;
 import java.util.Random;
 
 
@@ -8,8 +9,19 @@ public class Game {
 	public Character theCharacter;
 	public Cave theCave;
 	public Wumpus theWumpus;
+	private boolean isGameOver;
+	private HashSet<String> directions;
 	
 	public Game() {
+		isGameOver = false;
+		
+		directions = new HashSet<String>();
+		directions.add("NORTH");
+		directions.add("SOUTH");
+		directions.add("WEST");
+		directions.add("EAST");
+		directions.add("REST");
+		
 		Random rand = new Random();
 		
 		theCave = new Cave();
@@ -46,26 +58,43 @@ public class Game {
 		theWumpus.move();
 	}
 	
-	public void turn(String direction) {
+	public String turn(String direction) {
+		
+		if(theCave.boundaryExists(this.getCavernContainingCharacter().getCavernNumber(), direction)) {
+			return "Cannot move in this direction due to boundary - please try again.";
+		}
+		
+		String outputMessage = "";
+		
 		theCharacter.move(direction);
 		theWumpus.move();
+		
 		if (theWumpus.getLocationX() == theCharacter.getX()) {
 			if (theWumpus.getLocationY() == theCharacter.getY()) {
 				this.gameOver();
+				outputMessage+= "The Wumpus got you. Game over.";
 			}
 		}
+		
 		if (this.getCavernContainingCharacter().hasBats()) {
 			this.characterEntersCavernContainingBats();
+			outputMessage+= "You have entered a cavern infested with bats and they have flown you to a random location in the cave. ";
 		}
 		
+		return outputMessage;
 	}
 	
 	public void gameOver() {
-		
+		isGameOver = true;
 	}
 	
 	public void resetCharacterToStartingPoint() {
 		theCharacter.hardSetLocation(2, 2);
+	}
+
+	public boolean isGameOver() {
+		// TODO Auto-generated method stub
+		return isGameOver;
 	}
 	
 }
