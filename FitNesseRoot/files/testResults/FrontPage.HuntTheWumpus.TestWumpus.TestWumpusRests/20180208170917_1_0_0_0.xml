@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusRests</rootPath>
+    <result>
+    <counts>
+      <right>25</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-02-08T17:09:17+00:00</date>
+    <runTimeInMillis>1159</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: ../wumpus-project/bin&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;test Wumpus Random Movement&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;294&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;385&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;371&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;371&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;299&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;385&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;367&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;374&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;295&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;431&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;11&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;349&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;392&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;13&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;255&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;14&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;373&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;15&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;393&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;16&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;346&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;17&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;462&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;18&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;515&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;19&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;481&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;20&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;449&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;21&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;481&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;22&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;470&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;23&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;503&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;24&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;500&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;isEndingPoint&lt;/td&gt;
+		&lt;td&gt;25&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;459&amp;gt;225&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestWumpusRests</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='test'}</instruction>
+        <slimResult>pass(test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='TestWumpusRandomMovement', args=[]}</instruction>
+        <slimResult>pass(test Wumpus Random Movement)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>test Wumpus Random Movement</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[1]}</instruction>
+        <slimResult>pass(294&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_1</instructionId>
+                    <col>3</col>
+                              <row>1</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>294&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[2]}</instruction>
+        <slimResult>pass(385&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_2</instructionId>
+                    <col>3</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>385&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[3]}</instruction>
+        <slimResult>pass(371&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_3</instructionId>
+                    <col>3</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>371&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[4]}</instruction>
+        <slimResult>pass(371&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_4</instructionId>
+                    <col>3</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>371&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[5]}</instruction>
+        <slimResult>pass(299&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_5</instructionId>
+                    <col>3</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>299&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_6', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[6]}</instruction>
+        <slimResult>pass(385&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_6</instructionId>
+                    <col>3</col>
+                              <row>6</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>385&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_7', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[7]}</instruction>
+        <slimResult>pass(367&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_7</instructionId>
+                    <col>3</col>
+                              <row>7</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>367&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_8', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[8]}</instruction>
+        <slimResult>pass(374&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_8</instructionId>
+                    <col>3</col>
+                              <row>8</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>374&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_9', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[9]}</instruction>
+        <slimResult>pass(295&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_9</instructionId>
+                    <col>3</col>
+                              <row>9</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>295&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_10', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[10]}</instruction>
+        <slimResult>pass(431&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_10</instructionId>
+                    <col>3</col>
+                              <row>10</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>431&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_11', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[11]}</instruction>
+        <slimResult>pass(349&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_11</instructionId>
+                    <col>3</col>
+                              <row>11</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>349&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_12', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[12]}</instruction>
+        <slimResult>pass(392&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_12</instructionId>
+                    <col>3</col>
+                              <row>12</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>392&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_13', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[13]}</instruction>
+        <slimResult>pass(255&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_13</instructionId>
+                    <col>3</col>
+                              <row>13</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>255&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_14', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[14]}</instruction>
+        <slimResult>pass(373&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_14</instructionId>
+                    <col>3</col>
+                              <row>14</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>373&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_15', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[15]}</instruction>
+        <slimResult>pass(393&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_15</instructionId>
+                    <col>3</col>
+                              <row>15</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>393&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_16', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[16]}</instruction>
+        <slimResult>pass(346&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_16</instructionId>
+                    <col>3</col>
+                              <row>16</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>346&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_17', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[17]}</instruction>
+        <slimResult>pass(462&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_17</instructionId>
+                    <col>3</col>
+                              <row>17</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>462&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_18', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[18]}</instruction>
+        <slimResult>pass(515&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_18</instructionId>
+                    <col>3</col>
+                              <row>18</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>515&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_19', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[19]}</instruction>
+        <slimResult>pass(481&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_19</instructionId>
+                    <col>3</col>
+                              <row>19</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>481&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_20', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[20]}</instruction>
+        <slimResult>pass(449&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_20</instructionId>
+                    <col>3</col>
+                              <row>20</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>449&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_21', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[21]}</instruction>
+        <slimResult>pass(481&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_21</instructionId>
+                    <col>3</col>
+                              <row>21</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>481&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_22', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[22]}</instruction>
+        <slimResult>pass(470&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_22</instructionId>
+                    <col>3</col>
+                              <row>22</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>470&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_23', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[23]}</instruction>
+        <slimResult>pass(503&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_23</instructionId>
+                    <col>3</col>
+                              <row>23</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>503&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_24', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[24]}</instruction>
+        <slimResult>pass(500&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_24</instructionId>
+                    <col>3</col>
+                              <row>24</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>500&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_25', instruction='call', instanceName='scriptTableActor', methodName='isEndingPoint', args=[25]}</instruction>
+        <slimResult>pass(459&gt;225)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_25</instructionId>
+                    <col>3</col>
+                              <row>25</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>459&gt;225</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin/java -cp /Users/Jason/Documents/workspace/wumpus-project/wumpus-project/fitnesse-standalone.jar:../wumpus-project/bin fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1430</totalRunTimeInMillis>
+</testResults>
+
