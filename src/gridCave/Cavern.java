@@ -3,9 +3,10 @@ package gridCave;
 public class Cavern {
 	
 	private int cavernNumber;
-	
+	private int arrowInCavernCount = 0;
 	private boolean containsBats;
 	private boolean containsPits;
+	private boolean containsArrow;
 	
 	public Cavern(int i) {
 		cavernNumber = i;
@@ -25,6 +26,11 @@ public class Cavern {
 		return containsPits;
 	}
 	
+	public boolean hasArrow() {
+		return containsArrow;
+	}
+
+	
 	public void putBats() {
 		containsBats = true;
 	}
@@ -32,5 +38,20 @@ public class Cavern {
 	public void putPit() {
 		containsPits = true;
 	}
+	
+	public void putArrow() {
+		arrowInCavernCount++;
+		containsArrow = true;
+	}
+
+	
+	public boolean putCanContainArrow() {
+		if (containsPits == false && containsBats == false) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 
 }

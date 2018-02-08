@@ -3,6 +3,8 @@ package gridCave;
 import java.util.HashSet;
 import java.util.Random;
 
+import arrows.Action;
+
 
 public class Game {
 	
@@ -10,6 +12,8 @@ public class Game {
 	public Cave theCave;
 	public Wumpus theWumpus;
 	private boolean isGameOver;
+	public Action arrowAction;
+
 	private HashSet<String> directions;
 	
 	public Game() {

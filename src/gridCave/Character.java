@@ -44,11 +44,11 @@ public class Character {
 		y = newY;
 	}
 	
-	public String shootArrow() {
+	public String shootArrow(int currentCavern, String direction) {
 		if (noOfArrows > 0) {
-			arrowAction.shootArrow();
+			arrowAction.shootArrowDirection(currentCavern, direction);
 			noOfArrows--;
-			return "Arrow shot in x direction";
+			return "Arrow shot " + direction;
 		}  else {
 		return "You do not have any arrows left";
 		}
@@ -61,4 +61,5 @@ public class Character {
 	public void setNoOfArrows(int noOfArrows) {
 		this.noOfArrows = noOfArrows;
 	}
+
 }
