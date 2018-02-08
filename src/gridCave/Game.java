@@ -58,6 +58,11 @@ public class Game {
 		theCharacter.hardSetLocation(rand.nextInt(5), rand.nextInt(5));
 	}
 	
+	public void hardSetWumpusLocation(int X, int Y) {
+		theWumpus.setLocationX(X);
+		theWumpus.setLocationY(Y);
+	}
+	
 	public void moveWumpus() {
 		theWumpus.move();
 	}
