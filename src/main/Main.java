@@ -31,7 +31,7 @@ public class Main {
 			
 			String outputMessage = newGame.turn(input);
 			
-			System.out.println("Turn is over. " + outputMessage);
+			System.out.println(outputMessage);
 		}
 	}
 

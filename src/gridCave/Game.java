@@ -14,17 +14,24 @@ public class Game {
 	private boolean isGameOver;
 	public Action arrowAction;
 
-	private HashSet<String> directions;
+	private HashSet<String> directionsToMove;
+	private HashSet<String> directionsToShoot;
 	
 	public Game() {
 		isGameOver = false;
 		
-		directions = new HashSet<String>();
-		directions.add("NORTH");
-		directions.add("SOUTH");
-		directions.add("WEST");
-		directions.add("EAST");
-		directions.add("REST");
+		directionsToMove = new HashSet<String>();
+		directionsToMove.add("NORTH");
+		directionsToMove.add("SOUTH");
+		directionsToMove.add("WEST");
+		directionsToMove.add("EAST");
+		directionsToMove.add("REST");
+		
+		directionsToShoot = new HashSet<String>();
+		directionsToShoot.add("SHOOT NORTH");
+		directionsToShoot.add("SHOOT SOUTH");
+		directionsToShoot.add("SHOOT WEST");
+		directionsToShoot.add("SHOOT EAST");
 		
 		Random rand = new Random();
 		
@@ -68,7 +75,7 @@ public class Game {
 	}
 	
 	public void wumpusLocation() {
-		System.out.println("W " + this.getCavernContainingWumpus().getCavernNumber());
+		//System.out.println("W " + this.getCavernContainingWumpus().getCavernNumber());
 	}
 	
 	public String turn(String direction) {
@@ -77,7 +84,7 @@ public class Game {
 			return "Cannot move in this direction due to boundary - please try again.";
 		}
 		
-		if(!directions.contains(direction)) {
+		if(!directionsToMove.contains(direction)) {
 			return "Invalid direction given. Please try again.";
 		}
 		

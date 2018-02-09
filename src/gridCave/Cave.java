@@ -29,8 +29,8 @@ public class Cave {
 		setBats(2);
 		setPits(2);
 		
-		System.out.println("Pits " + cavernsWithPits.get(0).getCavernNumber() + " " + cavernsWithPits.get(1).getCavernNumber());
-		System.out.println("bats " + cavernsWithBats.get(0).getCavernNumber() + " " + cavernsWithBats.get(1).getCavernNumber());
+		//System.out.println("Pits " + cavernsWithPits.get(0).getCavernNumber() + " " + cavernsWithPits.get(1).getCavernNumber());
+		//System.out.println("bats " + cavernsWithBats.get(0).getCavernNumber() + " " + cavernsWithBats.get(1).getCavernNumber());
 
 	}
 	
