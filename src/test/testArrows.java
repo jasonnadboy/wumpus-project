@@ -57,9 +57,10 @@ public class testArrows {
 		}
 	}
 	
-	public void whenPlayerHitsWallWithArrowGameOver() {
+	public boolean playerHitsWallWithArrowGameOver() {
 		Game newGame = new Game();
 		newGame.arrowAction.shootArrowDirection(1,"WEST");
+		return newGame.isGameOver();
 		
 	}
 	

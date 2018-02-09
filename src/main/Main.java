@@ -10,10 +10,18 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Do you want to play the game? Enter YES or NO.");
-		while(scanner.nextLine().equals("YES")) {
+		System.out.println("Do you want to play a game? Enter OK if so, otherwise hit return.");
+		
+		while(scanner.nextLine().equals("OK")) {
 			
 			Game newGame = new Game();
+			
+			System.out.println("Do you want to play on baby mode? Enter FINE if so, otherwise hit return. ");
+			
+			if (scanner.nextLine().equals("FINE")) {
+				newGame.turnOnEasyMode();
+			}
+			
 			
 			System.out.println("\n Game Begins"
 					+ "\n Welcome to a new game of Hunt The Wumpus!!!"
@@ -22,12 +30,16 @@ public class Main {
 					+ "\n If you feel wind, you are next to a cavern with a pit."
 					+ "\n If you heard chirping, you are next to a cavern with bats."
 					+ "\n If you smell coffee, you are next to a cavern with the Wompus feasting on a frappe."
+					+ "\n To kill the Wumpus, you may input one of five shooting options: SHOOT NORTH, SHOOT EAST, SHOOT WEST, SHOOT SOUTH"
+					+ "\n However you may not make a movement and shoot an arrow in the same turn."
+					+ "\n If you hit the Wumpus, you win!!! But beware! If you shoot into an adjacent wall, "
+					+ "\n 	Newton's Third Law of Motion kicks in and the arrow will bounce back and kill you, resulting in a game over."
 					+ "\n");		
 			
-			System.out.println("Right now ... " + newGame.initialCheck());
+			System.out.println("Right now ... You have five arrows. " + newGame.initialCheck());
 			
 			while (!newGame.isGameOver()) {
-				System.out.println("Please input your next move: ");
+				System.out.println("\nPlease input a move: ");
 				newGame.wumpusLocation();
 				String input = scanner.nextLine();
 				
@@ -35,7 +47,7 @@ public class Main {
 				
 				System.out.println(outputMessage);
 			}	
-		System.out.println("Do you want to play again? Enter YES or NO.");
+		System.out.println("\nDo you want to play again? Enter YES or NO.");
 		}
 		System.out.println("Thank you for your time. May the Agile Practice be with you.");
 	}
