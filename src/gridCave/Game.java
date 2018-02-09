@@ -17,6 +17,7 @@ public class Game {
 	private HashSet<String> directionsToMove;
 	private HashSet<String> directionsToShoot;
 	private boolean wumpusIsDead;
+	private boolean easyModeOn;
 	
 	public Game() {
 		isGameOver = false;
@@ -44,6 +45,10 @@ public class Game {
 			theWumpus = new Wumpus(rand.nextInt(5),rand.nextInt(5));
 		} while (theWumpus.getLocationX() == 2 && theWumpus.getLocationY() == 2);
 		
+	}
+	
+	public void turnOnEasyMode(){
+		easyModeOn = true;
 	}
 	
 	public Cavern getCavernContainingCharacter() {
@@ -88,6 +93,11 @@ public class Game {
 			return "Invalid command given. Please try again.";
 		}
 		
+		if(easyModeOn ) {
+			outputMessage = outputMessage + "The Wumpus began this turn in Cavern. " + this.getCavernContainingWumpus().getCavernNumber() + " ";
+			outputMessage = outputMessage + "You began this turn in Cavern. " + this.getCavernContainingCharacter().getCavernNumber() + " ";
+		}
+		
 		if(directionsToMove.contains(command)) {
 			if(theCave.boundaryExists(this.getCavernContainingCharacter().getCavernNumber(), command)) {
 				return "Cannot move in this direction due to boundary - please try again.";
@@ -105,7 +115,11 @@ public class Game {
 		
 		if(directionsToShoot.contains(command)) {
 			//INSERT SHOOT LOGIC
+			return "Like the NYC subway, the shooting feature is not functioning properly. ";
 		}
+		
+		outputMessage = outputMessage + "You have " + String.valueOf(theCharacter.getNoOfArrows()) + " arrows left. ";
+		
 
 		theWumpus.move();
 		
