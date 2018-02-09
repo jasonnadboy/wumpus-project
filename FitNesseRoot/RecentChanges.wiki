@@ -1,3 +1,11 @@
+|FrontPage.HuntTheWumpus.TestPlayerMovement||11:42:24 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerEntersBats||11:19:18 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerMultipleMoves||10:47:09 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerEntersPit||10:10:30 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerMovementError||09:51:53 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus||09:49:51 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus.TestWumpus.TestWumpusDead||09:47:39 Fri, Feb 09, 2018|
+|FrontPage.HuntTheWumpus.TestWumpus.TestSmellWumpus||09:27:12 Fri, Feb 09, 2018|
 |FrontPage.HuntTheWumpus.TestWumpus||18:03:48 Thu, Feb 08, 2018|
 <<<<<<< HEAD
 |FrontPage.HuntTheWumpus.TestWumpus.TestWumpusStartingPoint||17:14:05 Thu, Feb 08, 2018|
@@ -7,7 +15,6 @@
 |FrontPage.HuntTheWumpus.TestCavernSuite||16:28:58 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsAndWumpusCavernIsRandom||16:28:48 Thu, Feb 08, 2018|
 >>>>>>> origin/master
-|FrontPage.HuntTheWumpus||15:44:56 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.AdjacentCavernContainsEnemy||15:01:07 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.CavernContainsEnemy||12:03:04 Thu, Feb 08, 2018|
 |FrontPage.HuntTheWumpus.TestCavernSuite.TotalNumberOfCaverns||09:58:08 Thu, Feb 08, 2018|

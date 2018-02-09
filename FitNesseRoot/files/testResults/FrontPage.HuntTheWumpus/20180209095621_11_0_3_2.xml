@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>FrontPage.HuntTheWumpus</rootPath>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.MapSuite.TestBoundary</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.MapSuite.TestBoundary?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>138</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.MapSuite.TestMap</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.MapSuite.TestMap?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>81</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>346</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.MapSuite.TestStartingPoint</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.MapSuite.TestStartingPoint?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>23</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestCavernSuite.AdjacentCavernContainsEnemy</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestCavernSuite.AdjacentCavernContainsEnemy?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>25</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsCavernIsRandom</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestCavernSuite.BatsAndPitsCavernIsRandom?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>156</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestCavernSuite.CavernContainsEnemy</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestCavernSuite.CavernContainsEnemy?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>15</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestCavernSuite.TotalNumberOfCaverns</name>
+    <date>2018-02-09T09:56:21+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestCavernSuite.TotalNumberOfCaverns?pageHistory&amp;resultDate=20180209095621</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>54</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerEntersBats</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerEntersBats?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerEntersPit</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerEntersPit?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <runTimeInMillis>17</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerMovementError</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerMovementError?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerMultipleMoves</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestPlayerMovement.TestPlayerMultipleMoves?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>12</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestWumpus.TestSmellWumpus</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestWumpus.TestSmellWumpus?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>9</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusDead</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusDead?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>9</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusRests</name>
+    <date>2018-02-09T09:56:22+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusRests?pageHistory&amp;resultDate=20180209095622</pageHistoryLink>
+    <counts>
+      <right>25</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>1894</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusStartingPoint</name>
+    <date>2018-02-09T09:56:23+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestWumpus.TestWumpusStartingPoint?pageHistory&amp;resultDate=20180209095623</pageHistoryLink>
+    <counts>
+      <right>25</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>160</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.HuntTheWumpus.TestPlayerMovement</name>
+    <date>2018-02-09T09:56:24+00:00</date>
+    <pageHistoryLink>FrontPage.HuntTheWumpus.TestPlayerMovement?pageHistory&amp;resultDate=20180209095624</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/GitHub/wumpus-project/fitnesse-standalone.jar:../wumpus-project/bin fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /Users/mamaddox/Documents/GitHub/wumpus-project/fitnesse-standalone.jar fit.FitServer Marias-MacBook.local 60789 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>11</right>
+    <wrong>0</wrong>
+    <ignores>3</ignores>
+    <exceptions>2</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4191</totalRunTimeInMillis>
+</suiteResults>
+

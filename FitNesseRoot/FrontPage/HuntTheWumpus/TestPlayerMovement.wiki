@@ -1,0 +1,7 @@
+---
+Suite
+Test: no
+---
+>TestPlayerEntersPit
+>TestPlayerMultipleMoves
+>TestPlayerEntersBats

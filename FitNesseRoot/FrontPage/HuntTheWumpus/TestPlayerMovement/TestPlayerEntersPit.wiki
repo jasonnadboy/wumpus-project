@@ -1,0 +1,11 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+
+|script|Test Player Enters Pit|
+|check|player location equals pit location|true|
+|check|generate pit death message|You fell in the pit. Game Over|
+|ensure|is game over|

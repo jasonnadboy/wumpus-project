@@ -1,0 +1,13 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|script|Test Smell Wumpus|
+|place wumpus near player|
+|Check|isWumpusAdjacent|true|
+|Check|generate wumpus message|I SMELL WUMPUS|
+|place wumpus far from player|
+|Check|isWumpusAdjacent|false|
+|Check|generate wumpus message||

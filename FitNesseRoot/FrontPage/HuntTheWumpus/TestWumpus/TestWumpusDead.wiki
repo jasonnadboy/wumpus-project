@@ -1,0 +1,13 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|script|Test Wumpus Dead|
+|player kills the wumpus|
+|Check|isWumpusDead|true|
+|Check|generate wumpus message|You have KILLED the Wumpus. Well done!|
+|wumpus is still alive|
+|Check|isWumpusDead|false|
+|Check|generate wumpus message||

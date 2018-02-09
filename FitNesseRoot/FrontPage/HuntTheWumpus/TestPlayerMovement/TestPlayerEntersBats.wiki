@@ -1,0 +1,9 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|script|Test Player Enters Bats|
+|check|output message|You have entered a cavern infested with bats and they have flown you to a random location in the cave.|
+|ensure|player new location does not equal old location|

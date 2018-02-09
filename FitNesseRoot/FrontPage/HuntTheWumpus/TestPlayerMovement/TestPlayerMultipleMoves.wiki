@@ -1,0 +1,23 @@
+!define TEST_SYSTEM {slim}
+!path ../wumpus-project/bin
+
+|import|
+|test|
+
+|Test Player Valid Moves|
+|command|isValid?|commandMessage?|
+|NORTH|true|You have successfully moved.|
+|SOUTH|true|You have successfully moved.|
+|EAST|true|You have successfully moved.|
+|WEST|true|You have successfully moved.|
+|REST|true|You have successfully rested.|
+|SHOOT NORTH|true|You have successfully shot.|
+|SHOOT SOUTH|true|You have successfully shot.|
+|SHOOT EAST|true|You have successfully shot.|
+|SHOOT WEST|true|You have successfully shot.|
+|NORTH NORTH|false|Invalid command given. Please try again.|
+|NORTH EAST|false|Invalid command given. Please try again.|
+|NORTH SOUTH|false|Invalid command given. Please try again.|
+|NORTH WEST|false|Invalid command given. Please try again.|
+|DIE|false|Invalid command given. Please try again.|
+|KILL THE WUMPUS|false|Invalid command given. Please try again.|
