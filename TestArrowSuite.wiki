@@ -3,24 +3,21 @@ Suite: no
 Test
 ---
 !define TEST_SYSTEM {slim}
-!path /Users/ian20_000/git/wumpus-project/bin/
-
+!path ../wumpus-project/bin
 
 |import|
 |test|
 
-
 !|script|testArrows|
 |check|arrowCountAtStartOfGame|5|
 |check|arrowCount0ReturnError|You do not have any arrows left|
-Test when Arrow count is 0 Player is unable to shoot an arrow (error Message)
-Test when an arrow is shot Reclaimable Counter ++1 , Arrow Count -1
-
-
-Test Shoot Arrow North that arrow goes north
-Test Shoot Arrow South that arrow goes south
-Test Shoot Arrow East that arrow goes East
-Test Shoot Arrow West that arrow goes West
+|check|whenArrowShotNorthArrowGoesNorth|true|
+|check|whenArrowShotSouthArrowGoesSouth|true|
+|check|whenArrowShotEastArrowGoesEast|true|
+|check|whenArrowShotWestArrowGoesWest|true|
+|check|playerHitsWallWithArrowGameOver|true|
+|check|arrowIsInCavernAndCanBeRetrievedAfterBeingShot|1|
+|check|arrowKillsWampus|true|
 
 Test Arrow goes through cavern with a pit. Arrow is lost. Reclaimable Counter stays same, Arrow Count -1
 Test that Arrow kills Wumpus
