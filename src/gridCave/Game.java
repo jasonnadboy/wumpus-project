@@ -89,13 +89,18 @@ public class Game {
 
 		String outputMessage = "";
 		
+		if (command.equals("END")) {
+			this.gameOver();
+			return "You ended the current game. ";
+		}
+		
 		if(!directionsToMove.contains(command) && !directionsToShoot.contains(command)) {
 			return "Invalid command given. Please try again.";
 		}
 		
 		if(easyModeOn ) {
-			outputMessage = outputMessage + "The Wumpus began this turn in Cavern. " + this.getCavernContainingWumpus().getCavernNumber() + " ";
-			outputMessage = outputMessage + "You began this turn in Cavern. " + this.getCavernContainingCharacter().getCavernNumber() + " ";
+			outputMessage = outputMessage + "The Wumpus began this turn in Cavern " + this.getCavernContainingWumpus().getCavernNumber() + ". ";
+			outputMessage = outputMessage + "You began this turn in Cavern " + this.getCavernContainingCharacter().getCavernNumber() + ". ";
 		}
 		
 		if(directionsToMove.contains(command)) {
@@ -115,6 +120,20 @@ public class Game {
 		
 		if(directionsToShoot.contains(command)) {
 			//INSERT SHOOT LOGIC
+			switch (command) {
+				case "SHOOT NORTH":
+					
+					break;
+				case "SHOOT SOUTH":
+					break;
+				case "SHOOT EAST":
+					break;
+				case "SHOOT WEST":
+					break;
+				default:
+					break;
+			}
+			
 			return "Like the NYC subway, the shooting feature is not functioning properly. ";
 		}
 		
