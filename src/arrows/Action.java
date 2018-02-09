@@ -100,6 +100,6 @@ public class Action {
 	}
 
 	private void hitTheWampus() {
-		
+		game.gameOver();
 	}
 }

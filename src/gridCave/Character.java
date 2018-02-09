@@ -44,13 +44,10 @@ public class Character {
 		y = newY;
 	}
 	
-	public String shootArrow(int currentCavern, String direction) {
+	public void shootArrow(int currentCavern, String direction) {
 		if (noOfArrows > 0) {
 			arrowAction.shootArrowDirection(currentCavern, direction);
 			noOfArrows--;
-			return "Arrow shot " + direction;
-		}  else {
-		return "You do not have any arrows left";
 		}
 	}
 

@@ -39,7 +39,7 @@ public class Main {
 			System.out.println("Right now ... You have five arrows. " + newGame.initialCheck());
 			
 			while (!newGame.isGameOver()) {
-				System.out.println("\nPlease input a move: ");
+				System.out.println("\nPlease input a command: ");
 				newGame.wumpusLocation();
 				String input = scanner.nextLine();
 				
@@ -47,7 +47,7 @@ public class Main {
 				
 				System.out.println(outputMessage);
 			}	
-		System.out.println("\nDo you want to play again? Enter YES or NO.");
+		System.out.println("\nDo you want to play again? Enter OK if so, otherwise hit return.");
 		}
 		System.out.println("Thank you for your time. May the Agile Practice be with you.");
 	}

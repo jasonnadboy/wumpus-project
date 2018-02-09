@@ -9,13 +9,13 @@ public class testArrows {
 		return newGame.theCharacter.getNoOfArrows();
 	}
 	
-	
+/**
 	public String arrowCount0ReturnError() {
 		Game newGame = new Game();
 		newGame.theCharacter.setNoOfArrows(0);
 		return newGame.theCharacter.shootArrow(25, "NORTH");
 		}
-	
+**/
 	
 	public boolean whenArrowShotNorthArrowGoesNorth() {
 		Game newGame = new Game();

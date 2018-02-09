@@ -120,9 +120,18 @@ public class Game {
 		
 		if(directionsToShoot.contains(command)) {
 			//INSERT SHOOT LOGIC
+			/**
 			switch (command) {
 				case "SHOOT NORTH":
-					
+					theCharacter.shootArrow(this.getCavernContainingCharacter().getCavernNumber(), "NORTH");
+					if (this.isGameOver && wumpusIsDead) {
+						outputMessage+= "You killed the Wumpus! You win! ";
+						return outputMessage;
+					}
+					if (this.isGameOver) {
+						outputMessage+= "The arrow bounced back! You lose! ";
+						return outputMessage;
+					}
 					break;
 				case "SHOOT SOUTH":
 					break;
@@ -133,8 +142,9 @@ public class Game {
 				default:
 					break;
 			}
+			**/
 			
-			return "Like the NYC subway, the shooting feature is not functioning properly. ";
+			return "Like the NYC subway, the shooting feature is not functioning properly. Try another command. ";
 		}
 		
 		outputMessage = outputMessage + "You have " + String.valueOf(theCharacter.getNoOfArrows()) + " arrows left. ";
@@ -226,6 +236,11 @@ public class Game {
 
 	public boolean isWumpusDead() {
 		return wumpusIsDead;
+	}
+
+	public void wumpusIsDead() {
+		// TODO Auto-generated method stub
+		wumpusIsDead = true;
 	}
 	
 }
