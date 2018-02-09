@@ -16,9 +16,11 @@ public class Game {
 
 	private HashSet<String> directionsToMove;
 	private HashSet<String> directionsToShoot;
+	private boolean wumpusIsDead;
 	
 	public Game() {
 		isGameOver = false;
+		wumpusIsDead = false;
 		
 		directionsToMove = new HashSet<String>();
 		directionsToMove.add("NORTH");
@@ -37,7 +39,7 @@ public class Game {
 		
 		theCave = new Cave();
 		theCharacter = new Character(2,2);
-		
+		arrowAction = new Action(this, theCave);
 		do {
 			theWumpus = new Wumpus(rand.nextInt(5),rand.nextInt(5));
 		} while (theWumpus.getLocationX() == 2 && theWumpus.getLocationY() == 2);
@@ -78,31 +80,34 @@ public class Game {
 		//System.out.println("W " + this.getCavernContainingWumpus().getCavernNumber());
 	}
 	
-	public String turn(String direction) {
-		
-		if(theCave.boundaryExists(this.getCavernContainingCharacter().getCavernNumber(), direction)) {
-			return "Cannot move in this direction due to boundary - please try again.";
-		}
-		
-		if(!directionsToMove.contains(direction)) {
-			return "Invalid direction given. Please try again.";
-		}
-		
+	public String turn(String command) {
+
 		String outputMessage = "";
 		
-		theCharacter.move(direction);
-		
-		if (direction.equals("REST")) {
-			outputMessage+="You have successfully rested. ";
+		if(!directionsToMove.contains(command) && !directionsToShoot.contains(command)) {
+			return "Invalid command given. Please try again.";
 		}
-		else {
-			outputMessage+="You have successfully moved ";
-			outputMessage+=direction.toLowerCase();
-			outputMessage+=". ";
+		
+		if(directionsToMove.contains(command)) {
+			if(theCave.boundaryExists(this.getCavernContainingCharacter().getCavernNumber(), command)) {
+				return "Cannot move in this direction due to boundary - please try again.";
+			}
+			theCharacter.move(command);
+			if (command.equals("REST")) {
+				outputMessage+="You have successfully rested. ";
+			}
+			else {
+				outputMessage+="You have successfully moved ";
+				outputMessage+=command.toLowerCase();
+				outputMessage+=". ";
+			}
+		}
+		
+		if(directionsToShoot.contains(command)) {
+			//INSERT SHOOT LOGIC
 		}
 
 		theWumpus.move();
-		
 		
 		if (theWumpus.getLocationX() == theCharacter.getX()) {
 			if (theWumpus.getLocationY() == theCharacter.getY()) {
@@ -184,6 +189,10 @@ public class Game {
 		
 		return false;
 		
+	}
+
+	public boolean isWumpusDead() {
+		return wumpusIsDead;
 	}
 	
 }

@@ -53,5 +53,9 @@ public class Cavern {
 		}
 	}
 
+	public int getArrowInCavernCount() {
+		return arrowInCavernCount;
+	}
+
 
 }

@@ -63,6 +63,19 @@ public class testArrows {
 		
 	}
 	
+	public int arrowIsInCavernAndCanBeRetrievedAfterBeingShot() {
+		Game newGame = new Game();
+		newGame.arrowAction.shootArrowDirection(25, "NORTH");
+		return (newGame.theCave.getCave()[0][2].getArrowInCavernCount());
+	}
+	
+	public boolean arrowKillsWampus() {
+		Game newGame = new Game();
+		newGame.hardSetWumpusLocation(0, 2);
+		newGame.arrowAction.shootArrowDirection(25, "NORTH");
+		return (newGame.isWumpusDead());
+	}
+	
 	
 
 }
